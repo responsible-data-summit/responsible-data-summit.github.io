@@ -1,9 +1,3 @@
 # Site settings
 title: Responsible Data Summit 2020
 description: An online series featuring the most important voices in Privacy, AI, and the future of the Data Economy.
-
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true

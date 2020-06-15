@@ -1,0 +1,49 @@
+- name: Shafi Goldwasser
+  title: |
+    Director, Simons Institute at UC Berkeley
+  avatar: Shafi.png
+- name: Laurens Van Der Maaten
+  title: |
+    Director AI Research
+    Facebook
+  avatar: Laurens.png
+- name: Simson Garfinkel
+  title: |
+    Senior Computer Scientist
+    US Census Bureau
+  avatar: Simson.png
+- name: Kristin Lauter
+  title: |
+    Principal Researcher
+    Microsoft
+  avatar: Kristin.png
+- name: Arvin Narayan
+  title: |
+    Professor, Princeton University
+  avatar: Arvin.png
+- name: Yong Qiao
+  title: |
+    Director of Security Engineering, Uber
+  avatar: Yong.png
+- name: Salil Vadhan
+  title: |
+    Professor, Harvard University
+  avatar: Salil.png
+- name: Dawn Song
+  title: |
+    Professor, University of California, Berkeley 
+    CEO and co-founder of Oasis Labs
+  avatar: Dawn.jpg
+- name: Chenxi Wang
+  title: |
+    General Partner
+    Rain Capital
+  avatar: Chenxi.png
+- name: Jackie Monson
+  title: |
+    CPO and CISO of Sutter Health
+  avatar: Jackie.jpg
+- name: Neil Daswani
+  title: |
+    Former CISO, Lifelock
+  avatar: Neil.png

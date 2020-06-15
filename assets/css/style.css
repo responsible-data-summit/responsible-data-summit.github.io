@@ -27,7 +27,7 @@
     margin-top: 0em;
     padding-top: 8em;
     padding-bottom: 4em;
-    background-image: linear-gradient(rgba(0, 146, 246, 0.36), rgba(0, 146, 246, 0.36)), url("/assets/img/bg0.jpg");
+    background-image: linear-gradient(rgba(0, 146, 246, 0.5), rgba(0, 146, 246, 0.5)), url("/assets/img/bg0.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,22 +101,22 @@ section.ui.segment .container p b {
     font-size: 1.2em;
 }
 
-.ui.three.column.grid .ui.segment {
+.hp.ui.three.column.grid .ui.segment {
     padding: 2em;
     background-size: cover;
     min-height: 12em;
 }
 
-.ui.three.column.grid .ui.segment h1 {
+.hp.ui.three.column.grid .ui.segment h1 {
     color: white;
     font-size: 2em;
 }
 
-.ui.three.column.grid .ui.segment h1.fixheight {
+.hp.ui.three.column.grid .ui.segment h1.fixheight {
     min-height: 8em;
 }
 
-.ui.three.column.grid .ui.segment .button {
+.hp.ui.three.column.grid .ui.segment .button {
     font-weight: bolder;
     font-size: 1em;
     font-family: sans-serif;
@@ -124,4 +124,57 @@ section.ui.segment .container p b {
 
 h1 {
     color: dimgray;
+}
+
+.speakers.ui.container.center.aligned {
+    margin: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: whitesmoke;
+}
+
+.speakers h1 {
+    color: dimgray;
+    font-family: Source Code Pro, sans-serif;
+}
+
+.speakers h2 {
+    font-weight: normal;
+    color: dimgray;
+    font-family: Source Code Pro, sans-serif;
+}
+
+.speakers h4 {
+    font-weight: normal;
+    color: dimgray;
+    font-family: Source Code Pro, sans-serif;
+}
+
+.speakers .column {
+    margin-top: 2em;
+}
+
+.img-square {
+    width: 250px;
+    height: 250px;
+    padding: 0em;
+    margin: 0em;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.about.ui.container.center.aligned {
+    padding: 4em;
+}
+
+.about.ui.container.center.aligned h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.about.ui.container.center.aligned p {
+    color: white;
+    font-size: 1.4em;
 }

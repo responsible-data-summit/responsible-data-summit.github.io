@@ -1,0 +1,63 @@
+---
+layout: default
+title: Technology
+permalink: /technology
+---
+
+<div class="masthead ui segment center aligned"
+    style="background-image: linear-gradient(rgba(0, 146, 246, 0.5), rgba(0, 146, 246, 0.5)), url('/assets/img/bg2.jpg');">
+    <div class="ui container center aligned">
+        <h1 class="ui header">
+            Responsible Data Technology and Policy in the Real World
+        </h1>
+    </div>
+    <br>
+    <div class="speakers ui container center aligned">
+        <h2>
+            Responsible Data Technology in the Real World
+        </h2>
+        <h1>
+            Speakers
+        </h1>
+        <div class="ui three column grid">
+            {% for speaker in site.data.speakers_tech %}
+            <div class="column">
+                <div class="ui container center aligned">
+                    <img class="ui medium centered circular image" src="/assets/img/speakers/{{speaker.avatar}}">
+                </div>
+
+                <h2> {{ speaker.name }} </h2>
+                <h4> {{ speaker.title | newline_to_br  }} </h4>
+            </div>
+            {% endfor %}
+            <div class="column middle aligned">
+                <h1> And More! </h1>
+            </div>
+        </div>
+        <div class="ui divider"> </div>
+        <h2>
+            Data Rights and Public Policy
+        </h2>
+        <h1>
+            Speakers
+        </h1>
+        <div class="ui three column grid">
+            {% for speaker in site.data.speakers_policy %}
+            <div class="column">
+                <div class="ui container center aligned">
+                    <img class="ui medium centered circular image" src="/assets/img/speakers/{{speaker.avatar}}">
+                </div>
+
+                <h2> {{ speaker.name }} </h2>
+                <h4> {{ speaker.title | newline_to_br  }} </h4>
+            </div>
+            {% endfor %}
+            <div class="column middle aligned">
+                <h1> And More! </h1>
+            </div>
+        </div>
+    </div>
+    <a class="ui huge primary button" href="/joinus">
+        Join Us
+    </a>
+</div>
