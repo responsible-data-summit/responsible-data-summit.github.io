@@ -1,0 +1,9 @@
+---
+layout: default
+title: Index
+permalink: /debug/static_files
+---
+
+{% for file in site.static_files %}
+  {{ file.path }}  <br>
+{% endfor %}

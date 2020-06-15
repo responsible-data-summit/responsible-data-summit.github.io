@@ -1,0 +1,127 @@
+.nav.ui.vertical.segment {
+    background-color: whitesmoke;
+}
+
+.nav .ui.grid {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.nav .ui.menu .ui.dropdown .menu a.item {
+    margin: 1em;
+}
+
+.nav .ui.item {
+    font-family: Space Mono;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.nav .ui.button {
+    font-family: Source Code Pro, sans-serif;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.masthead.ui.segment {
+    margin-top: 0em;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    background-image: linear-gradient(rgba(0, 146, 246, 0.36), rgba(0, 146, 246, 0.36)), url("/assets/img/bg0.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.masthead .ui.header {
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Source Code Pro, sans-serif;
+    color: white;
+}
+
+.masthead h1.ui.header {
+    font-size: 4.5em;
+    color: white;
+}
+
+.masthead h3.ui.header {
+    font-size: 2.5em;
+    color: white;
+    font-weight: normal;
+}
+
+.masthead .ui.detail.container {
+    margin-top: 4em;
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+    font-family: Source Code Pro, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.masthead .ui.detail.container p {
+    font-size: 1.8em;
+}
+
+.masthead .ui.detail.container b {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: dodgerblue;
+}
+
+.masthead .ui.button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.ui.segment.center.aligned {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    background-color: whitesmoke;
+}
+
+section.ui.segment .container {
+    padding: 2em;
+}
+
+section.ui.segment .container h1 {
+    font-family: Source Code Pro, sans-serif;
+}
+
+section.ui.segment .container p {
+    margin: 3em;
+    font-size: 1.2em;
+    font-family: Source Code Pro, sans-serif;
+    color: dimgray;
+}
+
+section.ui.segment .container p b {
+    font-size: 1.2em;
+}
+
+.ui.three.column.grid .ui.segment {
+    padding: 2em;
+    background-size: cover;
+    min-height: 12em;
+}
+
+.ui.three.column.grid .ui.segment h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.ui.three.column.grid .ui.segment h1.fixheight {
+    min-height: 8em;
+}
+
+.ui.three.column.grid .ui.segment .button {
+    font-weight: bolder;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: dimgray;
+}
