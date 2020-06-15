@@ -4,4 +4,151 @@ title: Pandemic
 permalink: /pandemic
 ---
 
-{% include coming_soon.html %}
+<div class="masthead ui segment center aligned"
+    style="background-image: linear-gradient(rgba(242, 113, 28, 0.5), rgba(242, 113, 28, 0.5)), url('/assets/img/bg1.jpg');">
+    <div class="ui container center aligned">
+        <h1 class="ui header" style="margin-bottom: 1em;">
+            Responsible Data in the time of Pandemic
+        </h1>
+        <div class="four orange ui buttons">
+            <a class="ui big button" style="margin: 0em;" href="#about">About</a>
+            <a class="ui big button" style="margin: 0em;" href="#spotlight">Call for Spotlight</a>
+            <a class="ui big button" style="margin: 0em;" href="#speakers">Invited Speakers</a>
+            <a class="ui big button" style="margin: 0em;" href="#committee">Organizing Committee</a>
+        </div>
+        <div class="ui divider"></div>
+        <a class="ui big white button fluid" style="color: rgba(242, 113, 28, 1); margin: 0em;" href="/joinus">
+            Join Us
+        </a>
+    </div>
+</div>
+
+<section id="about" class="ui segment center aligned">
+    <div class="ui container left aligned">
+        <h1>
+            Responsible Data in the Time of Pandemic
+        </h1>
+        <p>
+            Never before have we had access to large scale datasets and processing capabilities while fighting a global
+            pandemic like COVID-19. But with great data comes great responsibility. New questions are being asked, such
+            as:
+        </p>
+        <div class="ui bulleted list">
+            <p class="item">How should such data be used?</p>
+            <p class="item">Are there protections that individuals are willing to forgo in a short-term crisis? What
+                happens after the crisis is over?</p>
+            <p class="item">Is it possible to enhance contact tracing while also increasing privacy protections?</p>
+            <p class="item">What other technologies can be used to fight a global pandemic, and what are the privacy
+                implications of their use?</p>
+        </div>
+        <p>
+            At the responsible data summit we will explore the perspectives and experiences of leaders fighting COVID-19
+            with data and new technologies, and host a discussion about how we all - as responsible data stewards - can
+            use data responsibly to fight both the current pandemic and infectious diseases in the future.
+        </p>
+    </div>
+</section>
+
+<section id="spotlight" class="spotlight ui segment center aligned">
+    <div class="ui container left aligned">
+        <h1>
+            Call for Spotlight
+        </h1>
+        <br>
+        <p>
+            Have you been working on collecting data and applying data science to the fight against COVID-19, facing
+            challenges in responsible data use, or developing technologies for responsible data use for COVID-19? Then
+            we want to hear from you! We are looking for short presentation spotlights of approximately 5 minutes to
+            highlight relevant work in responsible data use for COVID-19.
+        </p>
+        <p>
+            Please send us <b>an abstract</b> of no more than 300 words and <b>a 5 minute video</b> by <b>June 30</b>.
+        </p>
+        <br>
+        <a class="ui huge button violet fluid" href="{{ site.google_form }}">
+            Submit your project
+        </a>
+    </div>
+</section>
+
+<section id="speakers" class="masthead ui segment center aligned"
+    style="background-image: linear-gradient(rgba(242, 113, 28, 0.7), rgba(242, 113, 28, 0.7)), url('/assets/img/bg1.jpg');">
+    <div class="ui container center aligned">
+        <h1 class="ui header">
+            Speakers
+        </h1>
+    </div>
+    <br>
+    <div class="speakers ui container center aligned">
+        <div class="ui three column grid">
+            {% for speaker in site.data.speakers_pandemic %}
+            <div class="column">
+                <div class="ui container center aligned">
+                    <img class="ui medium centered circular image" src="/assets/img/speakers/{{speaker.avatar}}">
+                </div>
+
+                <h2> {{ speaker.name }} </h2>
+                <h4> {{ speaker.title | newline_to_br  }} </h4>
+            </div>
+            {% endfor %}
+            <div class="column middle aligned">
+                <h1> And More! </h1>
+            </div>
+        </div>
+    </div>
+    <a class="ui huge white button" style="color: rgba(242, 113, 28, 0.7);" href="/joinus">
+        Join Us
+    </a>
+</section>
+
+<section id="committee" class="ui segment center aligned" style="background-color: blueviolet; padding: 4em;">
+    <div class="ui container center aligned">
+        <h1 style="color: white; padding-bottom: 1em;">
+            Organizing Committee
+        </h1>
+        <br>
+        <div class="ui three column grid" style="background-color: white; padding: 4em;">
+            <div class="column left aligned">
+                <h2>
+                    Program Chairs:
+                </h2>
+                <div class="ui bulleted list">
+                    {% for member in site.data.committee_pgchair %}
+                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="column left aligned">
+                <h2>
+                    Program Committee:
+                </h2>
+                <div class="ui bulleted list">
+                    {% for member in site.data.committee_pgcom %}
+                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="column left aligned">
+                <h2>
+                    Coordination Committee:
+                </h2>
+                <div class="ui bulleted list">
+                    {% for member in site.data.committee_coorcom %}
+                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ui container center aligned" style="padding: 6em;">
+    <div class="ui two column grid">
+        <div class="column">
+            <img class="ui centered image medium" src="/assets/img/berkeley.png">
+        </div>
+        <div class="column">
+            <img class="ui centered image medium" src="/assets/img/mit.jpg">
+        </div>
+    </div>
+</section>
