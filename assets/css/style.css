@@ -114,11 +114,13 @@ section.ui.segment .container p b {
 
 .hp.ui.three.column.grid .ui.segment h1 {
     color: white;
-    font-size: 2em;
+    font-size: 1.4em;
 }
 
 .hp.ui.three.column.grid .ui.segment h1.fixheight {
-    min-height: 8em;
+    font-size: 1.4em;
+    margin-top: 2em;
+    min-height: 12em;
 }
 
 .hp.ui.three.column.grid .ui.segment .button {
