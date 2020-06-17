@@ -1,4 +1,6 @@
-# responsible-data-summit.github.io
+# Responsible Data Summit - Website
+
+responsible-data-summit.github.io
 
 Website for responsible data summit.
 
