@@ -1,7 +1,39 @@
 ---
 layout: default
-title: Privacy
-permalink: /privacy
+title: Privacy and Decentralization
+permalink: /4d421928d1a642159fdb22fb5635abfe
 ---
 
-{% include coming_soon.html %}
+<section class="masthead ui segment center aligned"
+    style="background-image: linear-gradient(rgba(49, 0, 129, 0.5), rgba(49, 0, 129, 0.5)), url('/assets/img/bg4.jpg');">
+    <div class="ui container center aligned">
+        <h1 class="ui header">
+            Privacy and Decentralization
+        </h1>
+    </div>
+    <br>
+    <div class="speakers ui container center aligned">
+        <h1>
+            Speakers
+        </h1>
+        <div class="ui three column grid">
+            {% for speaker in site.data.speakers_privacy %}
+            <div class="column">
+                <div class="ui container center aligned">
+                    <img class="ui medium centered circular image" src="/assets/img/speakers/{{speaker.avatar}}">
+                </div>
+
+                <h2> {{ speaker.name }} </h2>
+                <h4> {{ speaker.title | newline_to_br  }} </h4>
+            </div>
+            {% endfor %}
+
+            <div class="column middle aligned">
+                <h1> And More! </h1>
+            </div>
+        </div>
+    </div>
+    <a class="ui huge purple button" href="/joinus">
+        Join Us
+    </a>
+</section>

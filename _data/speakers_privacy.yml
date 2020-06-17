@@ -1,0 +1,90 @@
+- name: Ryan Selkis
+  title: |
+    CEO, Messari
+  avatar: RyanS.png
+- name: Ryan Lackey
+  title: |
+    CSO, Tezos Foundation
+  avatar: RyanL.png
+- name: Lily Liu
+  title: |
+    Founder, Earn.com
+  avatar: Lily.png
+- name: Richard Ma
+  title: |
+    CEO, Quantstamp
+  avatar: RichardM.png
+- name: Zaki Manian
+  title: |
+    Director at Tendermint Labs
+  avatar: Zaki.png
+- name: Taylor Moynahan
+  title: |
+    CEO, MyCrypto
+  avatar: Taylor.png
+- name: Viktor Radchenko
+  title: |
+    CEO, Trustwallet
+  avatar: Viktor.png
+- name: Steven Waterhouse
+  title: |
+    CEO, Orchid Labs
+  avatar: Steven.png
+- name: MacLane Wilkinson
+  title: |
+    CEO, NuCypher
+  avatar: MacLane.png
+- name: Ayo Akinlele
+  title: |
+    Co-founder and CEO, 
+    zkChannels
+  avatar: Ayo.png
+- name: Brittany Laughlin
+  title: |
+    Executive Director, Stacks Foundation 
+    (Blockstack Governance)
+  avatar: Brittany.png
+- name: Joey Krug
+  title: |
+    Co-Chief Investment Officer
+    Pantera Capital
+  avatar: Joey.png
+- name: Dr. Sebastian Banescu
+  title: |
+    Sr. Research Engineer,
+    Quantstamp
+  avatar: Sebastian.png
+- name: Dr. Phil Windley
+  title: |
+    Chair and Founder,
+    Sovrin Foundation
+  avatar: Phil.png
+- name: Jesse Leimgruber
+  title: |
+    Co-founder,
+    Bloom.co
+  avatar: Jesse.png
+- name: Chris Rothfuss
+  title: |
+    Senator, State of Wyoming
+  avatar: ChrisR.png
+- name: Tyler Lindholm
+  title: |
+    Congressman, State of Wyoming
+  avatar: Tyler.png
+- name: Stephen Tse
+  title: |
+    Co-founder and CEO,
+    Harmony Protocol
+  avatar: Stephen.jpg
+- name: Sandeep Nailwal
+  title: |
+    Co-founder and CEO,
+    Matic Network
+  avatar: Sandeep.jpg
+- name: Yaniv Tal
+  title: |
+    Co-founder and CEO,
+    The Graph
+  avatar: Yaniv.jpg
+  
