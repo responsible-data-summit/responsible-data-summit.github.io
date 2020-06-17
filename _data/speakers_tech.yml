@@ -44,11 +44,6 @@
     Professor, University of California, Berkeley 
     CEO and co-founder of Oasis Labs
   avatar: Dawn.jpg
-- name: Chenxi Wang
-  title: |
-    General Partner
-    Rain Capital
-  avatar: Chenxi.png
 - name: Jackie Monson
   title: |
     CPO and CISO of Sutter Health
@@ -57,3 +52,8 @@
   title: |
     Former CISO, Lifelock
   avatar: Neil.png
+- name: Chenxi Wang
+  title: |
+    General Partner
+    Rain Capital
+  avatar: Chenxi.png
