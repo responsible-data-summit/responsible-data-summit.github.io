@@ -7,16 +7,6 @@
   title: |
     Professor, MIT
   avatar: Ron.jpg
-- name: Ed Felten
-  title: |
-    Professor, Princeton University
-    Former Deputy United States Chief Technology Officer
-  avatar: Ed.png
-- name: John Langford
-  title: |
-    Partner Research Manager,
-    Microsoft
-  avatar: John.png
 - name: Matthew Trunnell
   title: |
     Executive Director, Pandemic Response Consortium
@@ -27,6 +17,16 @@
     Google Fellow DataCommons
     Google
   avatar: Guha.jpg
+- name: John Langford
+  title: |
+    Partner Research Manager,
+    Microsoft
+  avatar: John.png
+- name: Ed Felten
+  title: |
+    Professor, Princeton University
+    Former Deputy United States Chief Technology Officer
+  avatar: Ed.png
 - name: Dawn Song
   title: |
     Professor, University of California, Berkeley 
