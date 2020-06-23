@@ -172,18 +172,24 @@ h1 {
     background-size: cover;
 }
 
-.about.ui.container.center.aligned {
-    padding: 4em;
+.about.ui.container.aligned {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 4em;
+    padding-bottom: 8em;
 }
 
-.about.ui.container.center.aligned h1 {
+.about.ui.container.aligned h1 {
     color: white;
     font-size: 5em;
+    margin-bottom: 0.5em;
+    text-align: center;
 }
 
-.about.ui.container.center.aligned p {
+.about.ui.container.aligned p {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.33em;
+    font-family: sans-serif;
 }
 
 .spotlight.ui.segment.center.aligned {
