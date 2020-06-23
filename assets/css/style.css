@@ -93,13 +93,18 @@ section.ui.segment .container h1 {
 }
 
 section.ui.segment .container p {
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-family: sans-serif;
     color: dimgray;
 }
 
 section.ui.segment .container p {
     margin: 3em;
+}
+
+section.ui.segment .container p.item {
+    margin: auto;
+    margin-left: 3em;
 }
 
 section.ui.segment .container p b {
