@@ -1,0 +1,86 @@
+---
+layout: default
+title: Pandemic
+permalink: /pandemic_card
+---
+
+<script src="/assets/js/html2canvas.min.js"></script>
+<script src="/assets/js/canvas2image.js"></script>
+
+<script>
+    function output_card(card_id, speaker_name) {
+        console.log(document.querySelector(card_id))
+        html2canvas(document.querySelector(card_id), {
+            x: $(card_id).offset().left+20,
+            y: $(card_id).offset().top,
+        }).then(canvas => {
+            saveAs(canvas.toDataURL('image/jpeg', 1.0), "card-"+speaker_name.replace(/ /g, "-")+'.jpg');
+            //document.body.appendChild(canvas)
+        });
+    }
+    function saveAs(uri, filename) {
+        var link = document.createElement('a');
+        if (typeof link.download === 'string') {
+          link.href = uri;
+          link.download = filename;
+          //Firefox requires the link to be in the body
+          document.body.appendChild(link);
+          //simulate click
+          link.click();
+          //remove the link when done
+          document.body.removeChild(link);
+        } else {
+          window.open(uri);
+        }
+      }
+</script>
+
+<section id="speakers" class="masthead ui segment center aligned"
+    style="background-image: linear-gradient(rgba(242, 113, 28, 0.7), rgba(242, 113, 28, 0.7)), url('/assets/img/bg1.jpg');">
+    <div class="ui container center aligned">
+        <h1 class="ui header">
+            Responsible Data in the time of Pandemic 
+            <br>
+            Speakers - Cards
+        </h1>
+    </div>
+    <br>
+    <div class="speakers ui container center aligned">
+        <div class="ui two column grid">
+            {% for speaker in site.data.speakers_pandemic %}
+            <div class="column">
+                <div id="card-{{forloop.index}}" class="ui container left aligned" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/assets/img/bg0.jpg); background-size: cover; min-height: 20em;">
+                    <a class="ui right corner massive label" style="top: 0.5em; right: 0.5em; border-color: green;" onclick="output_card('#card-{{forloop.index}}', '{{speaker.name}}')">
+                        <div style="font-size: 0.4em; transform: rotate(45deg); padding-left: 4.5em; font-weight: bold; color: white;">
+                            Responsible Data in the time of Pandemic
+                        </div>
+                    </a>
+                    <div class="ui grid" style="height: 10em; padding-top: 0;">
+                        <div class="five wide column" style="margin-top: 0;">
+                            <img class="ui small circular image " style="border: 2px solid  white; box-shadow: 2px 2px 10px white" src="/assets/img/speakers/{{speaker.avatar}}">
+                        </div>
+                        <div class="eleven wide column" style="display: table; height: 100%; margin-top: 0;">
+                            <div style="display: table-cell; vertical-align: middle;">
+                                <h2 style="color: white; font-size: 1.6rem;"> {{ speaker.name }} </h2>
+                                <h4 style="color: white; font-size: 1rem;"> {{ speaker.title | newline_to_br  }} </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 style="color: white;  font-size: 1.4rem; padding-top: 1.4rem"> 
+                        {% if speaker.talk %}
+                            {{ speaker.talk }} 
+                        {% else %}
+                            TBD
+                        {% endif %}
+                    </h1>
+                </div>
+
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <a class="ui huge white button" style="color: rgba(242, 113, 28, 0.7);" href="/joinus">
+        Join Us
+    </a>
+</section>
