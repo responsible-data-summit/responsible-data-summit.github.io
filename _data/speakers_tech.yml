@@ -2,6 +2,10 @@
   title: |
     Director, Simons Institute at UC Berkeley
   avatar: Shafi.png
+- name: Dan Boneh
+  title: |
+    Professor, Stanford University
+  avatar: Dan.jpeg
 - name: Laurens Van Der Maaten
   title: |
     Director AI Research,
@@ -27,6 +31,11 @@
     Engineering Manager
     Facebook
   avatar: Payman.jpg
+- name: Qiang Yang
+  title: |
+    Chief AI Officer, WeBank
+    Professor, HKUST
+  avatar: Qiang.jpeg
 - name: Arvind Narayanan
   title: |
     Professor, Princeton University
@@ -85,16 +94,7 @@
   title: |
     Professor of Law in Residence, Berkeley
   avatar: ChrisH.jpg
-- name: Qiang Yang
-  title: |
-    Chief AI Officer, WeBank
-    Professor, HKUST
-  avatar: Qiang.jpeg
 - name: Gerhard Eschelbeck
   title: |
     Cybersecurity Executive
   avatar: Gerhard.jpg
-- name: Dan Boneh
-  title: |
-    Professor, Stanford University
-  avatar: Dan.jpeg
