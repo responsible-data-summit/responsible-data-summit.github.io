@@ -220,3 +220,7 @@ h1 {
     padding-top: 8em;
     padding-bottom: 8em;
 }
+
+section.ui.segment .ui.container.agenda h1 {
+    color: white;
+}
