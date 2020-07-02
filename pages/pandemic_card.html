@@ -5,7 +5,6 @@ permalink: /pandemic_card
 ---
 
 <script src="/assets/js/html2canvas.min.js"></script>
-<script src="/assets/js/canvas2image.js"></script>
 
 <script>
     function output_card(card_id, speaker_name) {
@@ -61,6 +60,10 @@ permalink: /pandemic_card
                         </div>
                         <div class="eleven wide column" style="display: table; height: 100%; margin-top: 0;">
                             <div style="display: table-cell; vertical-align: middle;">
+                                {% if speaker.extra_title %}
+                                    <h4 style="color: white; font-size: 1rem;"> {{ speaker.extra_title | newline_to_br  }} </h4>
+                                {% endif %}
+
                                 <h2 style="color: white; font-size: 1.6rem;"> {{ speaker.name }} </h2>
                                 <h4 style="color: white; font-size: 1rem;"> {{ speaker.title | newline_to_br  }} </h4>
                             </div>

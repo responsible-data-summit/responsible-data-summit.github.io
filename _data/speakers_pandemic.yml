@@ -2,23 +2,33 @@
   title: |
     Founder and Scientific Director, Mila
     Professor, University of Montreal
+  avatar: Yoshua.png
   talk: |
     Machine learning for contagiousness risk prediction on smartphones
-  avatar: Yoshua.png
+  extra_title: |
+    Turing Award winner
 - name: Ron Rivest
   title: |
     Professor, MIT
   avatar: Ron.jpg
+  talk: |
+    Private Automated Contact Tracing (PACT)
+  extra_title: |
+    Turing Award winner
 - name: Matthew Trunnell
   title: |
     Executive Director, Pandemic Response Consortium
     Former CIO, Fred Hutchinson Cancer Center
   avatar: Matthew.png
+  talk: |
+    The Chicagoland COVID-19 Commons
 - name: R.V.Guha               
   title: |
     Google Fellow DataCommons
     Google
   avatar: Guha.jpg
+  talk: |
+    Data Commons
 - name: John Langford
   title: |
     Partner Research Manager,
