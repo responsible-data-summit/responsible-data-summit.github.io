@@ -44,6 +44,9 @@
     Professor, UC Berkeley
     Founder and CEO of Oasis Labs
   avatar: Dawn.jpg
+  extra_title: |
+    Program Chair
+  hide_talk: true
 - name: Moti Yung
   title: |
     Google
@@ -52,6 +55,9 @@
   title: |
     Professor, MIT Media Lab
   avatar: Ramesh.png
+  extra_title: |
+    Program Co-chair
+  hide_talk: true
 - name: Carmela Troncoso
   title: |
     Professor, EPFL
