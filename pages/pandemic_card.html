@@ -12,8 +12,8 @@ permalink: /pandemic_card
         html2canvas(document.querySelector(card_id), {
             x: parseInt($(card_id).offset().left) + 10,
             y: parseInt($(card_id).offset().top) + 1,
-            height: $(card_id).outerHeight() - 2,
-            width: $(card_id).outerWidth() - 3,
+            height: $(card_id).outerHeight() - 3,
+            width: $(card_id).outerWidth() - 1.5,
         }).then(canvas => {
             saveAs(canvas.toDataURL('image/png', 1.0), "card-"+speaker_name.replace(/ /g, "-")+'.png');
             //document.body.appendChild(canvas)
