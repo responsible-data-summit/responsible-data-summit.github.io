@@ -55,13 +55,20 @@ permalink: /pandemic_card
                 {% else %}
                 <div id="card-{{forloop.index}}" class="ui container left aligned" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/assets/img/bg0.jpg); background-size: cover; min-height: 21em; position: relative;">
                 {% endif %}
-                    <a class="ui right corner massive label" style="border-color: green;" onclick="output_card('#card-{{forloop.index}}', '{{speaker.name}}')">
+                    <a class="ui right corner massive label" style="border-color: green; font-size: 2rem;" onclick="output_card('#card-{{forloop.index}}', '{{speaker.name}}')">
                         <div style="font-size: 0.4em; transform: rotate(45deg); padding-left: 4.5em; font-weight: bold; color: white;">
                             Responsible Data in the time of Pandemic
                         </div>
                     </a>
-                    <a class="ui bottom attached large label" style="background-color: rgba(242, 113, 28, 0.5); color: white; text-align: left; font-family: Source Code Pro, sans-serif;">
-                        Responsible Data Summit 2020
+                    <a class="ui bottom attached large label" style="background-color: rgba(242, 113, 28, 0.5); color: white; font-family: Source Code Pro, sans-serif;">
+                        <div class="ui grid" style="margin: 0;">
+                            <div class="ten wide column" style="text-align: left; margin: 0; padding: 0; font-size: 1.2em;">
+                                Responsible Data Summit 2020
+                            </div>
+                            <div class="six wide column" style="text-align: right; margin: 0; padding: 0; font-size: 1em; font-family: sans-serif;">
+                                responsibledata.ai
+                            </div>
+                        </div>
                     </a>
                     <div class="ui grid" style="height: 10em; padding-top: 0;">
                         <div class="five wide column" style="margin-top: 0;">
