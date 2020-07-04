@@ -1,0 +1,117 @@
+- time: 9:00 - 9:30
+  section: morning
+  title: Opening remark
+  comment: ""
+  panel: false
+  panel_moderator: ""
+  panel_speakers: []
+- time: 9:30 - 9:55 
+  section: morning
+  title: Fireside Chat 
+  comment: ""
+  panel: true
+  panel_moderator: Dawn Song
+  panel_speakers: 
+    - Yoshua Bengio
+- time: 10:00 - 10:45 
+  section: morning
+  title: "Panel: "
+  comment: "Privacy-preserving Contact Tracing"
+  panel: true
+  panel_moderator: Will Knight
+  panel_speakers: 
+    - Moti Yung
+    - Ron Rivest
+    - Ramesh Raskar
+    - Carmela Troncoso
+    - John Langford
+    - Andrew Trask
+- time: 10:50 - 11:20 
+  section: morning
+  title: "Panel: "
+  comment: "Privacy vs. Utility"
+  panel: true
+  panel_moderator: false
+  panel_speakers: 
+    - Elissa M. Redmiles
+    - Bill Pugh
+    - Ed Felten
+- time: 11:25 - 11:55 
+  section: morning
+  title: "Panel: "
+  comment: "Data Commons & Pandemic Response"
+  panel: true
+  panel_moderator: false
+  panel_speakers: 
+    - Matthew Trunnell
+    - R.V.Guha
+    - Claire Jarashow
+- time: 13:00 - 13:30 
+  section: afternoon
+  title: "Opening remark"
+  comment: ""
+  panel: false
+  panel_moderator: false
+  panel_speakers: []
+- time: 13:30 - 14:00 
+  section: afternoon
+  title: "Fireside Chat"
+  comment: ""
+  panel: true
+  panel_moderator: Dawn Song
+  panel_speakers:
+    - Dan Boneh
+    - Shafi Goldwasser
+- time: 14:05 - 14:30 
+  section: afternoon
+  title: "Panel: "
+  comment: "Federated Learning"
+  panel: true
+  panel_moderator: false
+  panel_speakers:
+    - Brendan McMahan
+    - Qiang Yang
+- time: 14:35 - 15:00 
+  section: afternoon
+  title: "Panel: "
+  comment: "Differential Privacy"
+  panel: true
+  panel_moderator: false
+  panel_speakers:
+    - Simson Garfinkel
+    - Salil Vadhan
+- time: 15:05 - 15:35 
+  section: afternoon
+  title: "Panel: "
+  comment: "Secure Machine Learning"
+  panel: true
+  panel_moderator: false
+  panel_speakers:
+    - Kristin Lauter 
+    - Payman Mohassel 
+    - Laurens Van Der Maaten
+- time: 15:40 - 16:40
+  section: afternoon
+  title: "Panel: "
+  comment: "Responsible Data Policy"
+  panel: true
+  panel_moderator: Alex Feerst
+  panel_speakers:
+    - Chris Riley
+    - Elizabeth Edenberg 
+    - Ernesto Falcon
+    - Chris Hoofnagle 
+    - Richard Whitt 
+    - Arvind Narayanan
+- time: 16:45 - 17:30 
+  section: afternoon
+  title: "Panel: "
+  comment: "Real World Security Operations"
+  panel: true
+  panel_moderator: Chenxi Wang
+  panel_speakers:
+    - Jackie Monson 
+    - Neil Daswani
+    - Sheila Jambekar 
+    - Gerhard Eschelbeck 
+    - Yong Qiao

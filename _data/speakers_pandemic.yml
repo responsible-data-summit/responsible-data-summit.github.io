@@ -41,6 +41,7 @@
     Professor, Princeton University
     Former Deputy United States Chief Technology Officer
   avatar: Ed.png
+  hide_talk: true
 - name: Dawn Song
   title: |
     Professor, UC Berkeley
@@ -53,6 +54,7 @@
   title: |
     Google
   avatar: Moti.png
+  hide_talk: true
 - name: Ramesh Raskar
   title: |
     Professor, MIT Media Lab
@@ -73,6 +75,7 @@
     Acting Director, Vaccine Preventable Disease Control 
     at Los Angeles County Department of Public Health
   avatar: Claire.jpg
+  hide_talk: true
 - name: Bill Pugh
   title: |
     Professor, University of Maryland

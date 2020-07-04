@@ -12,8 +12,8 @@ permalink: /pandemic_card
         html2canvas(document.querySelector(card_id), {
             x: parseInt($(card_id).offset().left) + 10,
             y: parseInt($(card_id).offset().top) + 1,
-            height: $(card_id).outerHeight() - 3,
-            width: $(card_id).outerWidth() - 1.5,
+            height: $(card_id).outerHeight() - 2,
+            width: $(card_id).outerWidth() - 5.5,
         }).then(canvas => {
             saveAs(canvas.toDataURL('image/png', 1.0), "card-"+speaker_name.replace(/ /g, "-")+'.png');
             //document.body.appendChild(canvas)
@@ -51,21 +51,26 @@ permalink: /pandemic_card
             {% for speaker in site.data.speakers_pandemic %}
             <div class="column">
                 {% if speaker.hide_talk %}
-                <div id="card-{{forloop.index}}" class="ui container left aligned" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/assets/img/bg0.jpg); background-size: cover; min-height: 16em; position: relative;">
+                <div id="card-{{forloop.index}}" class="ui container left aligned" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/assets/img/bg0.jpg); background-size: cover; min-height: 18em; position: relative;">
                 {% else %}
-                <div id="card-{{forloop.index}}" class="ui container left aligned" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/assets/img/bg0.jpg); background-size: cover; min-height: 21em; position: relative;">
+                <div id="card-{{forloop.index}}" class="ui container left aligned" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/assets/img/bg0.jpg); background-size: cover; min-height: 22em; position: relative;">
                 {% endif %}
-                    <a class="ui right corner massive label" style="border-color: green; font-size: 2rem;" onclick="output_card('#card-{{forloop.index}}', '{{speaker.name}}')">
-                        <div style="font-size: 0.4em; transform: rotate(45deg); padding-left: 4.5em; font-weight: bold; color: white;">
-                            Responsible Data in the time of Pandemic
+                    <a class="ui right corner massive label" style="border-color: green; font-size: 1.6rem;" onclick="output_card('#card-{{forloop.index}}', '{{speaker.name}}')">
+                        <div style="font-size: 0.8em; transform: rotate(45deg); padding-left: 2em; font-weight: bold; color: white;">
+                            July 28
                         </div>
                     </a>
                     <a class="ui bottom attached large label" style="background-color: rgba(242, 113, 28, 0.5); color: white; font-family: Source Code Pro, sans-serif;">
                         <div class="ui grid" style="margin: 0;">
                             <div class="ten wide column" style="text-align: left; margin: 0; padding: 0; font-size: 1.2em;">
-                                Responsible Data Summit 2020
+                                <div>
+                                    Responsible Data Summit 2020
+                                </div>
+                                <div style="font-size: 0.8em; font-family: sans-serif;">
+                                    Responsible Data in the time of Pandemic
+                                </div>
                             </div>
-                            <div class="six wide column" style="text-align: right; margin: 0; padding: 0; font-size: 1em; font-family: sans-serif;">
+                            <div class="six wide column" style="padding-top: 10px;text-align: right; margin: 0; padding-left: 0; padding-right: 0; padding-bottom: 0; font-size: 1em; font-family: sans-serif;">
                                 responsibledata.ai
                             </div>
                         </div>
