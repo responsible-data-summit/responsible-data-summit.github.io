@@ -29,19 +29,24 @@
   avatar: Guha.jpg
   talk: |
     Data Commons
+- name: Richard Benjamins
+  title: |
+    Telefonica
+  avatar: RichardB.jpg
 - name: John Langford
   title: |
     Partner Research Manager,
     Microsoft
   avatar: John.png
   talk: |
-    Trust in Contact Tracing
+    The PACT protocols for Contact Tracing
 - name: Ed Felten
   title: |
     Professor, Princeton University
     Former Deputy United States Chief Technology Officer
   avatar: Ed.png
-  hide_talk: true
+  talk: |
+    Privacy in times of crisis
 - name: Dawn Song
   title: |
     Professor, UC Berkeley
@@ -55,6 +60,18 @@
     Google
   avatar: Moti.png
   hide_talk: true
+- name: Brennan Lake
+  title: |
+    Quebic
+  avatar: Brennan.jpg
+- name: Claudia Juech 
+  title: |
+    Cloudera Foundation
+  avatar: Claudia.jpg
+- name: Stefaan G Verhulst
+  title: |
+    Co-Founder, The GovLab
+  avatar: Stefaan.jpg
 - name: Ramesh Raskar
   title: |
     Professor, MIT Media Lab
@@ -66,6 +83,8 @@
   title: |
     Professor, EPFL
   avatar: Carmela.png
+  talk: |
+    DP3T: towards reducing the trade-offs of contact tracing
 - name: Andrew Trask
   title: |
     Leader, openmined.org
@@ -80,16 +99,24 @@
   title: |
     Professor, University of Maryland
   avatar: Bill.jpg
+  talk: |
+    The challenge of balancing useful functionality and privacy in GAEN
 - name: Elissa M. Redmiles  
   title: |
     Researcher 
     Microsoft Research
   avatar: Elissa.jpg
+  talk: |
+    Identifying the Ideal COVID19 App Via Descriptive Ethics
 - name: Riddhiman Das 
+  hide_card: true
   title: |
     CEO	TripleBlind
   avatar: Riddhiman.png
+  talk:
+    Can't drive contact tracing adoption without being privacy first
 - name: Will Knight
   title: |
     Wired Magazine
   avatar: Will.png
+  hide_talk: true

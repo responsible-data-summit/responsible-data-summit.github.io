@@ -49,6 +49,9 @@ permalink: /pandemic_card
     <div class="speakers ui container center aligned">
         <div class="ui two column grid">
             {% for speaker in site.data.speakers_pandemic %}
+                {% if speaker.hide_card %}
+                    {% continue %}
+                {% endif %}
             <div class="column">
                 {% if speaker.hide_talk %}
                 <div id="card-{{forloop.index}}" class="ui container left aligned" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/assets/img/bg0.jpg); background-size: cover; min-height: 18em; position: relative;">
