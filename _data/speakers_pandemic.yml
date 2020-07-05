@@ -24,7 +24,6 @@
     The Chicagoland COVID-19 Commons
 - name: R.V.Guha               
   title: |
-    Google Fellow DataCommons
     Google
   avatar: Guha.jpg
   talk: |
@@ -59,7 +58,8 @@
   title: |
     Google
   avatar: Moti.png
-  hide_talk: true
+  talk: |
+    Google Apple Exposure Notification
 - name: Brennan Lake
   title: |
     Quebic
