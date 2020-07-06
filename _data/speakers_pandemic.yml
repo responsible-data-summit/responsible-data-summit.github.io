@@ -52,14 +52,13 @@
     Founder and CEO of Oasis Labs
   avatar: Dawn.jpg
   extra_title: |
-    Executive Program Chair
+    Program Chair
   hide_talk: true
 - name: Moti Yung
   title: |
     Google
   avatar: Moti.png
-  talk: |
-    Google Apple Exposure Notification
+  hide_talk: true
 - name: Brennan Lake
   title: |
     Quebic
