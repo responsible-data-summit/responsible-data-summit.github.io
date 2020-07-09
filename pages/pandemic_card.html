@@ -87,13 +87,13 @@ permalink: /pandemic_card
                                 {% if speaker.extra_title %}
                                     <h4 style="color: white; font-size: 1.3rem; font-weight: bolder;"> {{ speaker.extra_title | newline_to_br  }} </h4>
                                 {% endif %}
-                                <h2 style="color: white; font-size: 1.6rem;"> {{ speaker.name }} </h2>
+                                <h2 style="color: white; font-size: 1.6rem; font-weight: bolder;"> {{ speaker.name }} </h2>
                                 <h4 style="color: white; font-size: 1rem;"> {{ speaker.title | newline_to_br  }} </h4>
                             </div>
                         </div>
                     </div>
                     {% unless speaker.hide_talk %}
-                        <h1 style="color: white;  font-size: 1.4rem; padding-top: 1.4rem"> 
+                        <h1 style="color: white;  font-size: 1.4rem; padding-top: 1.4rem; font-weight: normal;"> 
                             {% if speaker.talk %}
                                 {{ speaker.talk }} 
                             {% else %}
