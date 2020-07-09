@@ -1,12 +1,12 @@
 - name: Yoshua Bengio
   title: |
-    Founder and Scientific Director, Mila
+    Founder and Scientific Director, Mila     
     Professor, University of Montreal
   avatar: Yoshua.png
   talk: |
     Machine learning for contagiousness risk prediction on smartphones
   extra_title: |
-    Turing Award winner
+    Turing Award Winner
 - name: Ron Rivest
   title: |
     Institute Professor, MIT
@@ -14,7 +14,7 @@
   talk: |
     Private Automated Contact Tracing (PACT)
   extra_title: |
-    Turing Award winner
+    Turing Award Winner
 - name: Matthew Trunnell
   title: |
     Executive Director, Pandemic Response Consortium
