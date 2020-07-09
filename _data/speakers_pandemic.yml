@@ -4,7 +4,7 @@
     Professor, University of Montreal
   avatar: Yoshua.png
   talk: |
-    Machine learning for contagiousness risk prediction on smartphones
+    Machine Learning for Contagiousness Risk Prediction on Smartphones
   extra_title: |
     Turing Award Winner
 - name: Ron Rivest
@@ -38,14 +38,14 @@
     Microsoft
   avatar: John.png
   talk: |
-    The PACT protocols for Contact Tracing
+    The PACT Protocols for Contact Tracing
 - name: Ed Felten
   title: |
     Professor, Princeton University
     Former Deputy United States Chief Technology Officer
   avatar: Ed.png
   talk: |
-    Privacy in times of crisis
+    Privacy in Times of Crisis
 - name: Dawn Song
   title: |
     Professor, UC Berkeley
@@ -83,7 +83,7 @@
     Professor, EPFL
   avatar: Carmela.png
   talk: |
-    DP3T: towards reducing the trade-offs of contact tracing
+    DP3T: Towards Reducing the Trade-Offs of Contact Tracing
 - name: Andrew Trask
   title: |
     Leader, openmined.org
@@ -99,21 +99,21 @@
     Professor, University of Maryland
   avatar: Bill.jpg
   talk: |
-    The challenge of balancing useful functionality and privacy in GAEN
+    The Challenge of Balancing Useful Functionality and Privacy in GAEN
 - name: Elissa M. Redmiles  
   title: |
     Researcher 
     Microsoft Research
   avatar: Elissa.jpg
   talk: |
-    Identifying the Ideal COVID19 App Via Descriptive Ethics
+    Identifying the Ideal COVID19 App via Descriptive Ethics
 - name: Riddhiman Das 
   hide_card: true
   title: |
     CEO	TripleBlind
   avatar: Riddhiman.png
   talk:
-    Can't drive contact tracing adoption without being privacy first
+    Can't Drive Contact Tracing Adoption Without Being Privacy First
 - name: Will Knight
   title: |
     Wired Magazine
