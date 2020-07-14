@@ -1,0 +1,95 @@
+- time: 9:00 - 9:20
+  sections: 
+    - title: Opening Remarks
+- time: 9:20 - 10:00
+  sections:
+    - title: "Fireside Chat:"
+    - title: "Moderator:"
+      inline: true
+      speakers:
+        - name: Dawn Song 
+    - inline: true
+      speakers:
+        - name: Dan Boneh
+        - name: Shafi Goldwasser
+- time: 10:00 - 11:10
+  sections:
+    - title: "Talks"
+    - title: "Section A:"
+      comments: "Federated Learning"
+      speakers:
+        - name: Brendan McMahan
+        - name: Qiang Yang
+    - title: "Section B:"
+      comments: "Differential Privacy"
+      speakers:
+        - name: Simson Garfinkel
+        - name: Salil Vadhan
+    - title: "Section C:"
+      comments: "Secure Machine Learning"
+      speakers:
+        - name: Kristin Lauter
+        - name: Payman Mohassel
+        - name: Laurens Van Der Maaten
+- time: 11:15 - 14:15
+  sections:
+    - title: "Talks"
+      speakers:
+        - name: Arvind Narayanan
+        - name: Glen Weyl
+          content: Data as Labor
+        - name: Richard Whitt
+- time: 14:15 - 15:00
+  sections:
+    - title: "Talks"
+    - title: "Section A:"
+      comments: "Privacy & Policy"
+      speakers:
+        - name: Elizabeth Edenberg
+        - name: Ernesto Falcon
+    - title: "Section B:"
+      comments: ""
+      speakers:
+        - name: Chris Hoofnagle
+          comment: to be confirmed
+        - name: Riddhiman Das
+    - title: "Section C:"
+      comments: "Security & Privacy in Enterprise"
+      speakers:
+        - name: Neil Daswani
+        - name: Yong Qiao
+- time: 15:00 - 15:45
+  sections:
+    - title: "Panel:"
+      comment: "Responsible Data Policy"
+    - title: "Moderator:"
+      speakers:
+        - name: Alex Feerst
+    - title: "Panelists:"
+      speakers:
+        - name: Chris Riley
+        - name: Elizabeth Edenberg 
+        - name: Ernesto Falcon 
+        - name: Chris Hoofnagle 
+        - name: Vivek Narayanadas
+        - name: Gabriel Ramsey
+- time: 15:45 - 16:30
+  sections:
+    - title: "Panel:"
+      comment: "Responsible Data in Enterprise"
+    - title: "Moderator:"
+      speakers:
+        - name: Chenxi Wang
+    - title: "Panelists:"
+      speakers:
+        - name: Jackie Monson
+        - name: Neil Daswani
+        - name: Sheila Jambekar
+        - name: Gerhard Eschelbeck
+        - name: Yong Qiao 
+- time: 16:30 - 16:45
+  sections: 
+    - title: Spotlight 
+- time: 16:45 - 17:00
+  sections: 
+    - title: Conclusion 

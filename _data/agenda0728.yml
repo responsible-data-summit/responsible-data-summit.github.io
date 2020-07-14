@@ -34,7 +34,7 @@
     - title: "Section D:"
       speakers:
         - name: Andrew Trask
-- time: 10:45-11:30
+- time: 10:45 - 11:30
   sections:
     - title: "Fireside Chat:"
     - title: "Moderator:"
@@ -45,7 +45,7 @@
       speakers:
         - name: Yoshua Bengio
         - name: Ron Rivest 
-- time: 11:30-12:15
+- time: 11:30 - 12:15
   sections:
     - title: "Panel:"
     - title: "Moderator:"
@@ -62,7 +62,7 @@
         - name: Ramesh Raskar
         - name: Carmela Troncoso
         - name: John Langford
-- time: 12:15-13:15
+- time: 12:15 - 13:15
   sections:
     - title: "Privacy vs. Utility"
     - inline: true
@@ -73,7 +73,7 @@
           content: Identifying the Ideal COVID-19 App via Descriptive Ethics
         - name: Bill Pugh
           content: The Challenge of Balancing Useful Functionality and Privacy in GAEN
-- time: 13:15-14:15
+- time: 13:15 - 14:15
   sections:
     - title: "Data Commons in Pandemic"
     - inline: true
@@ -84,7 +84,7 @@
           content: The Chicagoland COVID-19 Commons
         - name: Claire Jarashow
           content: The Complexities of COVID-19 Surveillance Data
-- time: 14:15-15:00
+- time: 14:15 - 15:00
   sections:
     - title: "Panel:"
       comment: "Data Commons, Data Steward, & Pandemic response"
@@ -96,3 +96,9 @@
         - name: Richard Benjamins
         - name: Claudia Juech
         - name: Brennan Lake
+- time: 15:00 - 15:15
+  sections: 
+    - title: Spotlight 
+- time: 15:15 - 15:30
+  sections: 
+    - title: Conclusion 
