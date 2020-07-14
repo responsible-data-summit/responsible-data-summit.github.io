@@ -4,8 +4,9 @@ title: Agenda
 permalink: /agenda-0728
 ---
 
-<section class="ui segment center aligned" style="background-color: dodgerblue;">
+<section class="ui segment center aligned" style="background-color: rgba(242, 113, 28, 1);">
     <div class="ui container center aligned agenda">
+        <h1> Responsible Data in the time of Pandemic </h1>
         <h1> Agenda (9:00 - 17:30 PST, July 28) </h1>
     </div>
     <div class="ui container left aligned agenda">
@@ -17,23 +18,20 @@ permalink: /agenda-0728
                 </tr>
             </thead>
             <tbody>
-                <tr class="center aligned positive">
-                    <td colspan="2">Morning: Responsible Data in the time of Pandemic </td>
-                </tr>
                 {% for event in site.data.agenda0728 %}
                     <tr style="line-height: 2.4em;">
-                        {% if event.section != "morning" %}
-                            {% continue %}
-                        {% endif %}
                         <td>{{event.time}} </td>
                         <td>
-                            <b>{{event.title}} </b> {{event.comment}}
-                            {% if event.panel %}
-                                <br>
-                                &bull; <b>Moderator</b>: 
-                                {% if event.panel_moderator %}
-                                    {% assign name = event.panel_moderator %}
-                                    {% assign aff = "UNKNOWN-AFF" %}
+                            {% for section in event.sections %}
+                            <div 
+                            {% unless forloop.index == 1 %}
+                                style="padding-left: 2em;"
+                            {% endunless %}
+                            >
+                                <b>{{section.title}} </b> {{section.comment}}
+                                {% for speaker in section.speakers %}
+                                    {% assign name = speaker.name %}
+                                    {% assign aff = speaker.aff %}
                                     {% assign avatar = "unknown.jpg" %}
                                     {% for find_speaker in site.data.speakers_pandemic %}
                                         {% if find_speaker.name == name %}
@@ -41,114 +39,24 @@ permalink: /agenda-0728
                                             {% assign avatar = find_speaker.avatar%}
                                         {% endif %}
                                     {% endfor %}
-                                    {% for find_speaker in site.data.speakers_tech %}
-                                        {% if find_speaker.name == name %}
-                                            {% assign aff = find_speaker.title%}
-                                            {% assign avatar = find_speaker.avatar%}
-                                        {% endif %}
-                                    {% endfor %}
-                                    
-                                    <a class="ui image label large">
+                                    {% unless forloop.index == 1 and section.inline %}
+                                    <br> 
+                                    {% endunless %}
+                                    &bull; 
+                                    <a href="{{speaker.link}}">{{speaker.content}}</a>
+                                    <a class="ui image label small">
                                         <img class="ui circular image" src="/assets/img/speakers/{{avatar}}" style="border-radius: 500rem;">
                                         {{name}}
-                                        <div class="detail">{{aff}}</div>
+                                        <div class="detail" title="{{aff}}">{{aff | | truncate: 40 }}</div>
                                     </a>
-                                {% else %}
-                                    TBD
-                                {% endif %}
-                                {% for speaker_name in event.panel_speakers %}
-                                    {% assign name = speaker_name %}
-                                    {% assign aff = "UNKNOWN-AFF" %}
-                                    {% assign avatar = "unknown.jpg" %}
-                                    {% for find_speaker in site.data.speakers_pandemic %}
-                                        {% if find_speaker.name == name %}
-                                            {% assign aff = find_speaker.title%}
-                                            {% assign avatar = find_speaker.avatar%}
-                                        {% endif %}
-                                    {% endfor %}
-                                    {% for find_speaker in site.data.speakers_tech %}
-                                        {% if find_speaker.name == name %}
-                                            {% assign aff = find_speaker.title%}
-                                            {% assign avatar = find_speaker.avatar%}
-                                        {% endif %}
-                                    {% endfor %}
-                                    <br> &bull;
-                                    <a class="ui image label large">
-                                        <img class="ui circular image" src="/assets/img/speakers/{{avatar}}" style="border-radius: 500rem;">
-                                        {{name}}
-                                        <div class="detail">{{aff}}</div>
-                                    </a>
-                                {% endfor %} 
-                            {% endif %}
+                                    {{speaker.comment}}
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
                         </td>
                     </tr>
                 {% endfor %}
-                <tr class="center aligned positive">
-                    <td colspan="2">Afternoon: Responsible Data Technology and Policy in the Real World </td>
-                </tr>
-                {% for event in site.data.agenda0728 %}
-                    <tr style="line-height: 2.4em;">
-                        {% if event.section != "afternoon" %}
-                            {% continue %}
-                        {% endif %}
-                        <td>{{event.time}} </td>
-                        <td>
-                            <b>{{event.title}} </b> {{event.comment}}
-                            {% if event.panel %}
-                                <br>
-                                &bull; <b>Moderator</b>: 
-                                {% if event.panel_moderator %}
-                                    {% assign name = event.panel_moderator %}
-                                    {% assign aff = "UNKNOWN-AFF" %}
-                                    {% assign avatar = "unknown.jpg" %}
-                                    {% for find_speaker in site.data.speakers_pandemic %}
-                                        {% if find_speaker.name == name %}
-                                            {% assign aff = find_speaker.title%}
-                                            {% assign avatar = find_speaker.avatar%}
-                                        {% endif %}
-                                    {% endfor %}
-                                    {% for find_speaker in site.data.speakers_tech %}
-                                        {% if find_speaker.name == name %}
-                                            {% assign aff = find_speaker.title%}
-                                            {% assign avatar = find_speaker.avatar%}
-                                        {% endif %}
-                                    {% endfor %}
-                                    
-                                    <a class="ui image label large">
-                                        <img class="ui circular image" src="/assets/img/speakers/{{avatar}}" style="border-radius: 500rem;">
-                                        {{name}}
-                                        <div class="detail">{{aff}}</div>
-                                    </a>
-                                {% else %}
-                                    TBD
-                                {% endif %}
-                                {% for speaker_name in event.panel_speakers %}
-                                    {% assign name = speaker_name %}
-                                    {% assign aff = "UNKNOWN-AFF" %}
-                                    {% assign avatar = "unknown.jpg" %}
-                                    {% for find_speaker in site.data.speakers_pandemic %}
-                                        {% if find_speaker.name == name %}
-                                            {% assign aff = find_speaker.title%}
-                                            {% assign avatar = find_speaker.avatar%}
-                                        {% endif %}
-                                    {% endfor %}
-                                    {% for find_speaker in site.data.speakers_tech %}
-                                        {% if find_speaker.name == name %}
-                                            {% assign aff = find_speaker.title%}
-                                            {% assign avatar = find_speaker.avatar%}
-                                        {% endif %}
-                                    {% endfor %}
-                                    <br> &bull;
-                                    <a class="ui image label large">
-                                        <img class="ui circular image" src="/assets/img/speakers/{{avatar}}" style="border-radius: 500rem;">
-                                        {{name}}
-                                        <div class="detail">{{aff}}</div>
-                                    </a>
-                                {% endfor %} 
-                            {% endif %}
-                        </td>
-                    </tr>
-                {% endfor %}
+
             </tbody>
         </table>
     </div>
