@@ -3,3 +3,14 @@ title: Responsible Data Summit 2020
 description: An online series featuring the most important voices in Privacy, AI, and the future of the Data Economy.
 
 google_form: https://docs.google.com/forms/d/e/1FAIpQLSdUPaZGDUpTyxbtBEFwDwhFo4Wx8oT1hDn6wfCIQx_LwF2cNw/viewform?usp=sf_link
+
+defaults:
+  - 
+    scope: 
+      path: ""
+    values:
+      twitter_site: "@dataeconomyai" 
+      twitter_creator: "@dataeconomyai" 
+      twitter_title: "Responsible Data Summit"
+      twitter_description: "The Responsible Data Summit is a different kind of forum.  We have created a virtual convening space that brings together top thought leaders in the field -- innovative technologists, entrepreneurs, policymakers, and advocates.  Our goal is to tackle a single mission: building a responsible data economy. And this online convening is just the beginning."
+      twitter_image: assets/img/banner.jpg
