@@ -50,11 +50,7 @@
     - title: "Panel:"
     - title: "Moderator:"
       speakers:
-        - name: Will Knight
-          comment: or
-        - name: Andrew Trask
-          comment: or
-        - name: Ramesh Raskar 
+        - name: TBD
     - title: "Panelists:"
       speakers:
         - name: Moti Yung
