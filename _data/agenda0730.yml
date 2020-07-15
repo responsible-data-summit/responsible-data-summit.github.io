@@ -1,7 +1,7 @@
-- time: 9:00 - 9:20
+- time: 9:00 - 9:30
   sections: 
     - title: Opening Remarks
-- time: 9:20 - 10:00
+- time: 9:30 - 10:00
   sections:
     - title: "Fireside Chat:"
     - title: "Moderator:"
@@ -11,7 +11,6 @@
     - inline: true
       speakers:
         - name: Dan Boneh
-        - name: Shafi Goldwasser
 - time: 10:00 - 11:10
   sections:
     - title: "Talks"
@@ -31,7 +30,7 @@
         - name: Kristin Lauter
         - name: Payman Mohassel
         - name: Laurens Van Der Maaten
-- time: 11:15 - 14:15
+- time: 11:15 - 12:15
   sections:
     - title: "Talks"
       speakers:
@@ -39,7 +38,10 @@
         - name: Glen Weyl
           content: Data as Labor
         - name: Richard Whitt
-- time: 14:15 - 15:00
+- time: 12:15 - 13:00
+  sections: 
+    - title: "Live Q&A"
+- time: 13:15 - 13:45
   sections:
     - title: "Talks"
     - title: "Section A:"
@@ -58,7 +60,7 @@
       speakers:
         - name: Neil Daswani
         - name: Yong Qiao
-- time: 15:00 - 15:45
+- time: 13:45 - 14:30
   sections:
     - title: "Panel:"
       comment: "Responsible Data Policy"
@@ -73,7 +75,7 @@
         - name: Chris Hoofnagle 
         - name: Vivek Narayanadas
         - name: Gabriel Ramsey
-- time: 15:45 - 16:30
+- time: 14:30 - 15:15
   sections:
     - title: "Panel:"
       comment: "Responsible Data in Enterprise"
@@ -87,9 +89,9 @@
         - name: Sheila Jambekar
         - name: Gerhard Eschelbeck
         - name: Yong Qiao 
-- time: 16:30 - 16:45
+- time: 15:15 - 15:30
   sections: 
     - title: Spotlight 
-- time: 16:45 - 17:00
+- time: 15:30 - 15:45
   sections: 
     - title: Conclusion 

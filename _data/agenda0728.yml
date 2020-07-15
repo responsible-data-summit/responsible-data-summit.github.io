@@ -31,6 +31,8 @@
         - name: John Langford
           content: CovidSafe (PACT protocol)
           link: https://covidsafe.cs.washington.edu/
+        - name: Bill Pugh
+          content: The Challenge of Balancing Useful Functionality and Privacy in GAEN
     - title: "Section D:"
       speakers:
         - name: Andrew Trask
@@ -58,7 +60,7 @@
         - name: Ramesh Raskar
         - name: Carmela Troncoso
         - name: John Langford
-- time: 12:15 - 13:15
+- time: 12:15 - 13:00
   sections:
     - title: "Privacy vs. Utility"
     - inline: true
@@ -69,7 +71,10 @@
           content: Identifying the Ideal COVID-19 App via Descriptive Ethics
         - name: Bill Pugh
           content: The Challenge of Balancing Useful Functionality and Privacy in GAEN
-- time: 13:15 - 14:15
+- time: 13:00 - 13:30
+  sections: 
+    - title: "Live Q&A"
+- time: 13:30 - 14:30
   sections:
     - title: "Data Commons in Pandemic"
     - inline: true
@@ -80,7 +85,7 @@
           content: The Chicagoland COVID-19 Commons
         - name: Claire Jarashow
           content: The Complexities of COVID-19 Surveillance Data
-- time: 14:15 - 15:00
+- time: 14:30 - 15:15
   sections:
     - title: "Panel:"
       comment: "Data Commons, Data Steward, & Pandemic response"
@@ -92,9 +97,9 @@
         - name: Richard Benjamins
         - name: Claudia Juech
         - name: Brennan Lake
-- time: 15:00 - 15:15
+- time: 15:15 - 15:30
   sections: 
     - title: Spotlight 
-- time: 15:15 - 15:30
+- time: 15:30 - 15:45
   sections: 
     - title: Conclusion 
