@@ -13,7 +13,7 @@
         - name: Dan Boneh
 - time: 10:00 - 11:10
   sections:
-    - title: "Talks"
+    - title: "Responsible Data Technology in the Real World"
     - title: "Section A:"
       comments: "Federated Learning"
       speakers:
@@ -32,7 +32,7 @@
         - name: Laurens Van Der Maaten
 - time: 11:15 - 12:15
   sections:
-    - title: "Talks"
+    - title: "What is Data?"
       speakers:
         - name: Arvind Narayanan
         - name: Glen Weyl
@@ -43,9 +43,9 @@
     - title: "Live Q&A"
 - time: 13:00 - 13:45
   sections:
-    - title: "Talks"
+    - title: "Responsible Data Policy in the Real World"
     - title: "Section A:"
-      comments: "Privacy & Policy"
+      comments: "Privacy and Policy"
       speakers:
         - name: Elizabeth Edenberg
         - name: Ernesto Falcon
@@ -56,7 +56,7 @@
           comment: to be confirmed
         - name: Riddhiman Das
     - title: "Section C:"
-      comments: "Security & Privacy in Enterprise"
+      comments: "Data Security & Privacy in Enterprise"
       speakers:
         - name: Neil Daswani
         - name: Yong Qiao
