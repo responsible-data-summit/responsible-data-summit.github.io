@@ -39,7 +39,7 @@
           content: "Crypten: Secure Multi-Party Computation"
 - time: 11:15 - 12:15
   sections:
-    - title: "What is Data?"
+    - title: "Digital Stewardship & What is Data?"
       speakers:
         - name: Arvind Narayanan
           content: Reverse Engineering the Surveillance Economy
@@ -97,8 +97,5 @@
         - name: Sheila Jambekar
         - name: Gerhard Eschelbeck
 - time: 14:45 - 15:00
-  sections: 
-    - title: Spotlight 
-- time: 15:00 - 15:15
   sections: 
     - title: Conclusion 
