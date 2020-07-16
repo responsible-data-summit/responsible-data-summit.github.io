@@ -1,0 +1,56 @@
+---
+layout: default
+title: Privacy and Decentralization
+permalink: /4d421928d1a642159fdb22fb5635abff
+twitter_title: Privacy and Decentralization - Responsible Data Summit
+twitter_description: Responsible Data Summit 2020
+twitter_image: assets/img/card-privacy.jpg
+---
+
+<section class="masthead ui segment center aligned"
+    style="background-image: linear-gradient(rgba(49, 0, 129, 0.5), rgba(49, 0, 129, 0.5)), url('/assets/img/bg4.jpg');">
+    <div class="ui container center aligned">
+        <h1 class="ui header">
+            Privacy and Decentralization
+        </h1>
+    </div>
+    <br>
+    <div class="speakers ui container center aligned">
+        <h1>
+            Speakers
+        </h1>
+        <div class="ui three column grid">
+            {% for speaker in site.data.speakers_decentral %}
+            <div class="column">
+                <div class="ui container center aligned">
+                    <img class="ui medium centered circular image" src="/assets/img/speakers/{{speaker.avatar}}">
+                </div>
+
+                <h2> {{ speaker.name }} </h2>
+                <h4> {{ speaker.title | newline_to_br  }} </h4>
+            </div>
+            {% endfor %}
+
+            <div class="column middle aligned">
+                <h1> And More! </h1>
+            </div>
+        </div>
+    </div>
+    <a class="ui huge purple button" href="/joinus">
+        Join Us / Free Registration
+    </a>
+</section>
+
+<section class="ui segment center aligned" style="background-color: dodgerblue;">
+    <div class="ui container center aligned blue" style="padding: 6em;">
+        <h1 style="color: white;"> Co-Oganizer and Partner </h1>
+        <div class="ui two column grid" style="padding-top: 4em; height: 24em;">
+            <div class="column">
+                <img class="ui centered image medium" style="padding-top: 8em;" src="/assets/img/oasis-foundation-white.png">
+            </div>
+            <div class="column">
+                <img class="ui centered image small" src="/assets/img/sfbw-logo.png">
+            </div>
+        </div>
+    </div>
+</section>
