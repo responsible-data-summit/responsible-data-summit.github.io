@@ -18,25 +18,35 @@
       comments: "Federated Learning"
       speakers:
         - name: Brendan McMahan
+          content: Federated Learning in Practice
         - name: Qiang Yang
+          content: Federated Learning Among Organizations
     - title: "Section B:"
       comments: "Differential Privacy"
       speakers:
         - name: Simson Garfinkel
+          content: Using Differential Privacy to Protect the Privacy of the 2020 Census Respondents
         - name: Salil Vadhan
+          content: "OpenDP: An Overview"
     - title: "Section C:"
       comments: "Secure Machine Learning"
       speakers:
         - name: Kristin Lauter
+          content: "Private AI: Machine Learning on Encrypted Data"
         - name: Payman Mohassel
+          content: Privacy Preserving Technology in Practice
         - name: Laurens Van Der Maaten
+          content: "Crypten: Secure Multi-Party Computation"
 - time: 11:15 - 12:15
   sections:
     - title: "What is Data?"
       speakers:
         - name: Arvind Narayanan
+          content: Reverse Engineering the Surveillance Economy
         - name: Glen Weyl
+          content: Data Is Labor
         - name: Richard Whitt
+          content: Hacking the SEAMs
 - time: 12:15 - 13:00
   sections: 
     - title: "Live Q&A"
@@ -47,18 +57,23 @@
       comments: "Privacy and Policy"
       speakers:
         - name: Elizabeth Edenberg
+          content: Data Rights and Justice
         - name: Ernesto Falcon
+          content: TBD
     - title: "Section B:"
       comments: ""
       speakers:
         - name: Chris Hoofnagle
+          content: The GDPR's Responsibility Mechanisms
           comment: to be confirmed
         - name: Riddhiman Das
     - title: "Section C:"
       comments: "Data Security & Privacy in Enterprise"
       speakers:
         - name: Neil Daswani
+          content: How the Oasis Platform Addresses the Root Causes of Data Breaches
         - name: Yong Qiao
+          content: Building Trust Through Effective Data Lifecycle Management
 - time: 13:45 - 14:30
   sections:
     - title: "Panel:"
