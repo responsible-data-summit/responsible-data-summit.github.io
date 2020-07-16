@@ -48,24 +48,20 @@
         - name: Richard Whitt
           content: Hacking the SEAMs
 - time: 12:15 - 13:00
-  sections: 
-    - title: "Live Q&A"
-- time: 13:00 - 13:45
   sections:
     - title: "Responsible Data Policy in the Real World"
     - title: "Section A:"
       comments: "Privacy and Policy"
       speakers:
+        - name: Chris Riley
+          content: Data, Law, and Trust in the Digital Economy
         - name: Elizabeth Edenberg
           content: Data Rights and Justice
-        - name: Ernesto Falcon
-          content: TBD
     - title: "Section B:"
       comments: ""
       speakers:
         - name: Chris Hoofnagle
           content: The GDPR's Responsibility Mechanisms
-          comment: to be confirmed
         - name: Riddhiman Das
     - title: "Section C:"
       comments: "Data Security & Privacy in Enterprise"
@@ -74,7 +70,7 @@
           content: How the Oasis Platform Addresses the Root Causes of Data Breaches
         - name: Yong Qiao
           content: Building Trust Through Effective Data Lifecycle Management
-- time: 13:45 - 14:30
+- time: 13:00 - 13:45
   sections:
     - title: "Panel:"
       comment: "Responsible Data Policy"
@@ -84,12 +80,10 @@
     - title: "Panelists:"
       speakers:
         - name: Chris Riley
-        - name: Elizabeth Edenberg 
         - name: Ernesto Falcon 
-        - name: Chris Hoofnagle 
         - name: Vivek Narayanadas
         - name: Gabriel Ramsey
-- time: 14:30 - 15:30
+- time: 13:45 - 14:45
   sections:
     - title: "Panel:"
       comment: "Responsible Data in Enterprise"
@@ -101,9 +95,9 @@
         - name: Jackie Monson
         - name: Sheila Jambekar
         - name: Gerhard Eschelbeck
-- time: 15:30 - 15:45
+- time: 14:45 - 15:00
   sections: 
     - title: Spotlight 
-- time: 15:45 - 16:00
+- time: 15:00 - 15:15
   sections: 
     - title: Conclusion 
