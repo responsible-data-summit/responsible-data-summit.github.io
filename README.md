@@ -2,6 +2,6 @@
 
 responsible-data-summit.github.io
 
-Website for responsible data summit.
+Website for Responsible Data Summit.
 
 Build on June 16th, 2020.
