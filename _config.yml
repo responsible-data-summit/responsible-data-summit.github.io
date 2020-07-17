@@ -4,6 +4,8 @@ description: An online series featuring the most important voices in Privacy, AI
 
 google_form: https://docs.google.com/forms/d/e/1FAIpQLSdUPaZGDUpTyxbtBEFwDwhFo4Wx8oT1hDn6wfCIQx_LwF2cNw/viewform?usp=sf_link
 
+agenda_aff_length: 35
+
 defaults:
   - 
     scope: 

@@ -14,29 +14,34 @@
 - time: 10:00 - 11:10
   sections:
     - title: "Responsible Data Technology in the Real World"
-    - title: "Section A:"
-      comments: "Federated Learning"
+    - title: "Session A:"
+      comment: "Federated Learning"
       speakers:
         - name: Brendan McMahan
           content: Federated Learning in Practice
         - name: Qiang Yang
           content: Federated Learning Among Organizations
-    - title: "Section B:"
-      comments: "Differential Privacy"
+    - title: "Session B:"
+      comment: "Differential Privacy"
       speakers:
         - name: Simson Garfinkel
           content: Using Differential Privacy to Protect the Privacy of the 2020 Census Respondents
         - name: Salil Vadhan
           content: "OpenDP: An Overview"
-    - title: "Section C:"
-      comments: "Secure Machine Learning"
+    - title: "Session C:"
+      comment: "Secure Machine Learning"
       speakers:
         - name: Kristin Lauter
           content: "Private AI: Machine Learning on Encrypted Data"
-        - name: Payman Mohassel
-          content: Privacy Preserving Technology in Practice
         - name: Laurens Van Der Maaten
           content: "Crypten: Secure Multi-Party Computation"
+    - title: "Session D:"
+      comment: "Secure Computing & Privacy-Preserving Technologies"
+      speakers:
+        - name: Payman Mohassel
+          content: Privacy Preserving Technology in Practice
+        - name: David Kohlbrenner
+          content: ...
 - time: 11:15 - 12:15
   sections:
     - title: "Digital Stewardship & What is Data?"
@@ -50,22 +55,22 @@
 - time: 12:15 - 13:00
   sections:
     - title: "Responsible Data Policy in the Real World"
-    - title: "Section A:"
-      comments: "Privacy and Policy"
+    - title: "Session A:"
+      comment: "Privacy and Policy"
       speakers:
         - name: Chris Riley
           content: Data, Law, and Trust in the Digital Economy
         - name: Elizabeth Edenberg
           content: Data Rights and Justice
-    - title: "Section B:"
-      comments: ""
+    - title: "Session B:"
+      comment: ""
       speakers:
         - name: Chris Hoofnagle
           content: The GDPR's Responsibility Mechanisms
         - name: Riddhiman Das
           content: Principled Privacy
-    - title: "Section C:"
-      comments: "Data Security & Privacy in Enterprise"
+    - title: "Session C:"
+      comment: "Data Security & Privacy in Enterprise"
       speakers:
         - name: Neil Daswani
           content: How the Oasis Platform Addresses the Root Causes of Data Breaches

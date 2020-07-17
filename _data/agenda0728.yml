@@ -10,7 +10,7 @@
 - time: 10:00 - 10:45
   sections:
     - title: Privacy-preserving contact-tracing projects
-    - title: "Section A:"
+    - title: "Session A:"
       speakers:
         - name: Moti Yung
           content: GAEN
@@ -18,7 +18,7 @@
         - name: Ron Rivest
           content: PACT
           link: https://pact.mit.edu/
-    - title: "Section B:"
+    - title: "Session B:"
       speakers:
         - name: Ramesh Raskar
           content: SafePaths
@@ -26,14 +26,14 @@
         - name: Carmela Troncoso
           content: DP-3T
           link: https://github.com/DP-3T/documents
-    - title: "Section C:"
+    - title: "Session C:"
       speakers:
         - name: John Langford
           content: CovidSafe (PACT protocol)
           link: https://covidsafe.cs.washington.edu/
         - name: Bill Pugh
           content: The Challenge of Balancing Useful Functionality and Privacy in GAEN
-    - title: "Section D:"
+    - title: "Session D:"
       speakers:
         - name: Andrew Trask
 - time: 10:45 - 11:30

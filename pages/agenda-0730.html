@@ -53,7 +53,7 @@ permalink: /agenda-0730
                                     <a class="ui image label small">
                                         <img class="ui circular image" src="/assets/img/speakers/{{avatar}}" style="border-radius: 500rem;">
                                         {{name}}
-                                        <div class="detail" title="{{aff}}">{{aff | truncate: 40 }}</div>
+                                        <div class="detail" title="{{aff}}">{{aff | truncate: site.agenda_aff_length }}</div>
                                     </a>
                                     {{speaker.comment}}
                                 {% endfor %}
