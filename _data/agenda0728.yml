@@ -38,7 +38,14 @@
         - name: Andrew Trask
 - time: 10:45 - 11:30
   sections:
-    - title: "Fireside Chat: TBD"
+    - title: "Fireside Chat:"
+    - title: "Moderator:"
+      inline: true
+      speakers:
+        - name: Dawn Song 
+    - inline: true
+      speakers:
+        - name: Shafi Goldwasser
 - time: 11:30 - 12:15
   sections:
     - title: "Panel:"
