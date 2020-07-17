@@ -1,23 +1,24 @@
 - name: Ari Juels, 
   title: |
     Professor, Cornell Tech
-  avatar: unknown.jpg
+  avatar: Ari.jpg
 - name: Andrew Miller
   title: |
     Professor, UIUC
-  avatar: unknown.jpg
+  avatar: AndrewM.png
 - name: Eli Ben-Sasson
   title: |
     Co-Founder & President, StarkWare
   avatar: Eli.jpg
 - name: David Chaum
   title: |
-    ...
-  avatar: unknown.jpg
+    CEO, xx network
+  avatar: David.jpg
 - name: Ali Loveys
   title: |
     Ernst & Young
-  avatar: unknown.jpg
+  title_linkedin: Chief Privacy Officer, Foundation Relations and North America Markets Leader (acting) at ConsenSys Health
+  avatar: Ali.jpg
 - name: Brendan Eich
   title: |
     Founder and CEO, 
