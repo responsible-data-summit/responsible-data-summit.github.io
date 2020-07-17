@@ -49,6 +49,7 @@
 - time: 11:30 - 12:15
   sections:
     - title: "Panel:"
+      comment: Privacy-preserving contact tracing
     - title: "Moderator:"
       speakers:
         - name: Will Knight
