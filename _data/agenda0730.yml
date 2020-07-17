@@ -41,7 +41,8 @@
         - name: Payman Mohassel
           content: Privacy Preserving Technology in Practice
         - name: David Kohlbrenner
-          content: ...
+          aff: Professor, University of Washington
+          content: Secure Enclave
 - time: 11:15 - 12:15
   sections:
     - title: "Digital Stewardship & What is Data?"
