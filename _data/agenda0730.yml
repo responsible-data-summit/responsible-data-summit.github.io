@@ -42,7 +42,7 @@
           content: Privacy Preserving Technology in Practice
         - name: David Kohlbrenner
           aff: Professor, University of Washington
-          content: Secure Enclave
+          content: Building secure and flexible systems with the Keystone TEE Framework
 - time: 11:15 - 12:15
   sections:
     - title: "Digital Stewardship & What is Data?"
