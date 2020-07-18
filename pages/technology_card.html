@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Pandemic Card
-permalink: /pandemic_card
+title: Technology Card
+permalink: /technology_card
 ---
 
 <script src="/assets/js/html2canvas.min.js"></script>
@@ -37,10 +37,10 @@ permalink: /pandemic_card
 </script>
 
 <section id="speakers" class="masthead ui segment center aligned"
-    style="background-image: linear-gradient(rgba(242, 113, 28, 0.7), rgba(242, 113, 28, 0.7)), url('/assets/img/bg1.jpg');">
+    style="background-image: linear-gradient(rgba(0, 146, 246, 0.5), rgba(0, 146, 246, 0.5)), url('/assets/img/bg2.jpg');">
     <div class="ui container center aligned">
         <h1 class="ui header">
-            Responsible Data in the time of Pandemic 
+            Responsible Data Technology and Policy in the Real World
             <br>
             Speakers - Cards
         </h1>
@@ -48,7 +48,7 @@ permalink: /pandemic_card
     <br>
     <div class="speakers ui container center aligned">
         <div class="ui two column grid">
-            {% for speaker in site.data.speakers_pandemic %}
+            {% for speaker in site.data.speakers_tech %}
                 {% if speaker.hide_card %}
                     {% continue %}
                 {% endif %}
@@ -60,20 +60,20 @@ permalink: /pandemic_card
                 {% endif %}
                     <a class="ui right corner massive label" style="border-color: green; font-size: 1.6rem;" onclick="output_card('#card-{{forloop.index}}', '{{speaker.name}}')">
                         <div style="font-size: 0.8em; transform: rotate(45deg); padding-left: 2em; font-weight: bold; color: white;">
-                            July 28
+                            July 30
                         </div>
                     </a>
-                    <a class="ui bottom attached large label" style="background-color: rgba(242, 113, 28, 0.5); color: white; font-family: Source Code Pro, sans-serif;">
+                    <a class="ui bottom attached large label" style="background-color: rgba(0, 146, 246, 0.5); color: white; font-family: Source Code Pro, sans-serif;">
                         <div class="ui grid" style="margin: 0;">
-                            <div class="ten wide column" style="text-align: left; margin: 0; padding: 0; font-size: 1.2em;">
+                            <div class="twelve wide column" style="text-align: left; margin: 0; padding: 0; font-size: 1.2em;">
                                 <div style="padding-bottom: 0.4em;">
                                     Responsible Data Summit 2020
                                 </div>
-                                <div style="font-size: 0.8em; font-family: sans-serif;">
-                                    Responsible Data in the time of Pandemic
+                                <div style="font-size: 0.5em; font-family: sans-serif;">
+                                    Responsible Data Technology and Policy in the Real World
                                 </div>
                             </div>
-                            <div class="six wide column" style="padding-top: 10px;text-align: right; margin: 0; padding-left: 0; padding-right: 0; padding-bottom: 0; font-size: 1em; font-family: sans-serif;">
+                            <div class="four wide column" style="padding-top: 10px;text-align: right; margin: 0; padding-left: 0; padding-right: 0; padding-bottom: 0; font-size: 1em; font-family: sans-serif;">
                                 responsibledata.ai
                             </div>
                         </div>
