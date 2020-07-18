@@ -80,7 +80,7 @@
 - time: 14:00 - 15:00
   sections:
     - title: "Panel:"
-      comment: "Data Commons, Data Steward, & Pandemic response"
+      comment: "Data Steward & Pandemic Response"
     - title: "Moderator:"
       speakers:
         - name: Stefaan G Verhulst

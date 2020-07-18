@@ -1,0 +1,48 @@
+<section id="committee" class="ui segment center aligned" style="background-color: blueviolet; padding: 4em;">
+    <div class="ui container center aligned">
+        <h1 style="color: white; padding-bottom: 1em;">
+            Organizing Committee
+        </h1>
+        <br>
+        <div class="ui three column grid" style="background-color: white; padding: 4em;">
+            <div class="column left aligned">
+                <h2>
+                    Executive Program Chair:
+                </h2>
+                <div class="ui bulleted list">
+                    {% for member in site.data.committee_ec %}
+                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
+                    {% endfor %}
+                </div>
+                <h2>
+                    Program Co-chair:
+                </h2>
+                <div class="ui bulleted list">
+                    {% for member in site.data.committee_cc %}
+                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="column left aligned">
+                <h2>
+                    Program Committee:
+                </h2>
+                <div class="ui bulleted list">
+                    {% for member in site.data.committee_pgcom %}
+                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="column left aligned">
+                <h2>
+                    Coordination Committee:
+                </h2>
+                <div class="ui bulleted list">
+                    {% for member in site.data.committee_coorcom %}
+                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -19,21 +19,33 @@ twitter_image: assets/img/card-tech.jpg
                 <a href="/agenda-0730" class="ui tag large label" style="color: rgba(0, 146, 246, 1);">Agenda</a> 
             -->
         </h3>
+        <br>
+        {% include twitter_follow.html %}
         <div class="ui divider"></div>
-        <div class="one blue ui buttons">
-            <a class="ui big button" style="margin: 0em;" href="/agenda-0730">July 30 Agenda</a>
+        <div class="four blue ui buttons">
+            <a class="ui medium button" style="margin: 0em;" href="#about">About</a>
+            <a class="ui medium button" style="margin: 0em;" href="#speakers">Invited Speakers</a>
+            <a class="ui medium button" style="margin: 0em;" href="#committee">Organizing Committee</a>
+            <a class="ui medium button" style="margin: 0em;" href="/agenda-0730">July 30 Agenda</a>
         </div>
     </div>
 </section>
 
 <section id="about" class="ui segment center aligned">
     <div class="ui container left aligned">
-        <h1 style="text-align: center;">
-            Responsible Data Technology and Policy in the Real World
-        </h1>
-        <p>
-            Technologists and businesses are innovating on the development and use of new privacy technologies that are making the promise of big data a reality. This track shares learnings and experiences from top academics, corporate leaders and others about new privacy computing technologies and how it’s used in real world applications. Meanwhile, with GDPR, CCPA, and other federal laws under debate, regulations and policies to both protect consumers from data breaches and expedient uses of their data have come to the forefront. Hear from top regulators and consumer advocates on their approach to privacy legislation, trade offs, and the future of public policy and responsible data use.
-        </p>
+        <div class="ui grid">
+            <div class="twelve wide column">      
+                <h1 style="text-align: center;">
+                    Responsible Data Technology and Policy in the Real World
+                </h1>
+                <p>
+                    Technologists and businesses are innovating on the development and use of new privacy technologies that are making the promise of big data a reality. Meanwhile, with GDPR, CCPA, and other federal laws under debate, regulations and policies to both protect consumers from data breaches and expedient uses of their data have come to the forefront. This track shares learnings and experiences from top academics, corporate leaders and others about new privacy computing technologies and how it's used in real world applications, as well as approaches that top regulators and consumers advocate to privacy legislation, trade offs, and the future of public policy and responsible data use.
+                </p>
+            </div>
+            <div class="four wide column">
+                {% include twitter_emb.html %}
+            </div>
+        </div>
     </div>
 </section>
 
@@ -59,9 +71,6 @@ twitter_image: assets/img/card-tech.jpg
             </div>
         </div>
     </div>
-    <a class="ui huge primary button" href="/joinus">
-        Join Us / Free Registration
-    </a>
 </section>
 
 <section class="ui segment center aligned">
@@ -69,3 +78,18 @@ twitter_image: assets/img/card-tech.jpg
         {% include newsletter_signup.html %}
     </div>
 </section>
+
+{% include committee_sec.html %}
+
+<section class="ui container center aligned" style="padding: 6em;">
+    <div class="ui two column grid">
+        <div class="column">
+            <img class="ui centered image medium" src="/assets/img/berkeley.png">
+        </div>
+        <div class="column">
+            <img class="ui centered image medium" src="/assets/img/mit.jpg">
+        </div>
+    </div>
+</section>
+
+

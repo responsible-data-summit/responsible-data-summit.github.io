@@ -16,13 +16,16 @@ twitter_image: assets/img/card-pandemic.jpg
         </h1>
         <h3 class="ui header" style="margin-bottom: 0em;">
             Live session on - <b> July 28 </b>
-            <a href="/agenda-0728" class="ui tag large label" style="color: rgba(242, 113, 28, 1);">Agenda</a>
+            <!-- 
+                <a href="/agenda-0728" class="ui tag large label" style="color: rgba(242, 113, 28, 1);">Agenda</a> 
+            -->
         </h3>
         <br>
         <a class="ui massive white button" style="color: rgba(242, 113, 28, 1); margin-bottom: 2em;" href="/joinus">
             Join Us / Free Registration
         </a>
-        
+        <br>
+        {% include twitter_follow.html %}
         <div class="ui divider"></div>
         <div class="five orange ui buttons">
             <a class="ui medium button" style="margin: 0em;" href="#about">About</a>
@@ -37,27 +40,34 @@ twitter_image: assets/img/card-pandemic.jpg
 
 <section id="about" class="ui segment center aligned">
     <div class="ui container left aligned">
-        <h1 style="text-align: center;">
-            Responsible Data in the Time of Pandemic
-        </h1>
-        <p>
-            Never before have we had access to large scale datasets and processing capabilities while fighting a global
-            pandemic like COVID-19. But with great data comes great responsibility. New questions are being asked, such
-            as:
-        </p>
-        <div class="ui bulleted list">
-            <p class="item">How should such data be used?</p>
-            <p class="item">Are there protections that individuals are willing to forgo in a short-term crisis? What
-                happens after the crisis is over?</p>
-            <p class="item">Is it possible to enhance contact tracing while also increasing privacy protections?</p>
-            <p class="item">What other technologies can be used to fight a global pandemic, and what are the privacy
-                implications of their use?</p>
+        <div class="ui grid">
+            <div class="twelve wide column">      
+                <h1 style="text-align: center;">
+                    Responsible Data in the Time of Pandemic
+                </h1>
+                <p>
+                    Never before have we had access to large scale datasets and processing capabilities while fighting a global
+                    pandemic like COVID-19. But with great data comes great responsibility. New questions are being asked, such
+                    as:
+                </p>
+                <div class="ui bulleted list">
+                    <p class="item">How should such data be used?</p>
+                    <p class="item">Are there protections that individuals are willing to forgo in a short-term crisis? What
+                        happens after the crisis is over?</p>
+                    <p class="item">Is it possible to enhance contact tracing while also increasing privacy protections?</p>
+                    <p class="item">What other technologies can be used to fight a global pandemic, and what are the privacy
+                        implications of their use?</p>
+                </div>
+                <p>
+                    In this track at the Responsible Data Summit we will explore the perspectives and experiences of leaders fighting COVID-19
+                    with data and new technologies, and host a discussion about how we all - as responsible data stewards - can
+                    use data responsibly to fight both the current pandemic and infectious diseases in the future.
+                </p>
+            </div>
+            <div class="four wide column">
+                {% include twitter_emb.html %}
+            </div>
         </div>
-        <p>
-            At the responsible data summit we will explore the perspectives and experiences of leaders fighting COVID-19
-            with data and new technologies, and host a discussion about how we all - as responsible data stewards - can
-            use data responsibly to fight both the current pandemic and infectious diseases in the future.
-        </p>
     </div>
 </section>
 
@@ -108,59 +118,15 @@ twitter_image: assets/img/card-pandemic.jpg
             </div>
         </div>
     </div>
-    <a class="ui huge white button" style="color: rgba(242, 113, 28, 0.7);" href="/joinus">
-        Join Us / Free Registration
-    </a>
 </section>
 
-<section id="committee" class="ui segment center aligned" style="background-color: blueviolet; padding: 4em;">
-    <div class="ui container center aligned">
-        <h1 style="color: white; padding-bottom: 1em;">
-            Organizing Committee
-        </h1>
-        <br>
-        <div class="ui three column grid" style="background-color: white; padding: 4em;">
-            <div class="column left aligned">
-                <h2>
-                    Executive Program Chair:
-                </h2>
-                <div class="ui bulleted list">
-                    {% for member in site.data.committee_ec %}
-                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
-                    {% endfor %}
-                </div>
-                <h2>
-                    Program Co-chair:
-                </h2>
-                <div class="ui bulleted list">
-                    {% for member in site.data.committee_cc %}
-                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="column left aligned">
-                <h2>
-                    Program Committee:
-                </h2>
-                <div class="ui bulleted list">
-                    {% for member in site.data.committee_pgcom %}
-                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="column left aligned">
-                <h2>
-                    Coordination Committee:
-                </h2>
-                <div class="ui bulleted list">
-                    {% for member in site.data.committee_coorcom %}
-                        <div class="item"><b>{{ member.name}} </b> {{ member.aff }}</div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
+<section class="ui segment center aligned">
+    <div class="ui container left aligned" style="padding-top: 2em; padding-bottom: 2em;">
+        {% include newsletter_signup.html %}
     </div>
 </section>
+
+{% include committee_sec.html %}
 
 <section class="ui container center aligned" style="padding: 6em;">
     <div class="ui two column grid">
@@ -170,11 +136,5 @@ twitter_image: assets/img/card-pandemic.jpg
         <div class="column">
             <img class="ui centered image medium" src="/assets/img/mit.jpg">
         </div>
-    </div>
-</section>
-
-<section class="ui segment center aligned">
-    <div class="ui container left aligned" style="padding-top: 2em; padding-bottom: 2em;">
-        {% include newsletter_signup.html %}
     </div>
 </section>
