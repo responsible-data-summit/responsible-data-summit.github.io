@@ -3,15 +3,18 @@
     Professor, UC Berkeley
     Director, Simons Institute
   avatar: Shafi.png
+  hide_talk: true
 - name: Dan Boneh
   title: |
     Professor, Stanford University
   avatar: Dan.jpeg
+  hide_talk: true
 - name: Laurens Van Der Maaten
   title: |
     Director AI Research,
     Facebook
   avatar: Laurens.png
+  hide_talk: true
 - name: Simson Garfinkel
   title: |
     Senior Computer Scientist,
@@ -122,10 +125,10 @@
   title: |
     Microsoft
   avatar: Glen.jpg
+  hide_talk: true
 - name: Riddhiman Das 
-  hide_card: true
   title: |
     CEO	TripleBlind
   avatar: Riddhiman.png
-  talk:
+  talk: |
     Can't Drive Contact Tracing Adoption Without Being Privacy First
