@@ -4,11 +4,15 @@
     Director, Simons Institute
   avatar: Shafi.png
   hide_talk: true
+  extra_title: |
+    Turing Award Winner
 - name: Dan Boneh
   title: |
     Professor, Stanford University
   avatar: Dan.jpeg
   hide_talk: true
+  extra_title: |
+    Godel Prize winner
 - name: Laurens Van Der Maaten
   title: |
     Director AI Research,
@@ -123,7 +127,7 @@
   avatar: Gabriel.jpg
 - name: Glen Weyl
   title: |
-    Microsoft
+    Microsoft's Office of the Chief Technology Political Economist and Social Technologist (OCTOPEST)
   avatar: Glen.jpg
   hide_talk: true
 - name: Riddhiman Das 

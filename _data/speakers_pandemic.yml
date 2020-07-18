@@ -7,6 +7,7 @@
     Machine Learning for Contagiousness Risk Prediction on Smartphones
   extra_title: |
     Turing Award Winner
+  hide_talk: true
 - name: Ron Rivest
   title: |
     Institute Professor, MIT
@@ -15,6 +16,7 @@
     Private Automated Contact Tracing (PACT)
   extra_title: |
     Turing Award Winner
+  hide_talk: true
 - name: Matthew Trunnell
   title: |
     Executive Director, Pandemic Response Consortium
@@ -22,6 +24,7 @@
   avatar: Matthew.png
   talk: |
     The Chicagoland COVID-19 Commons
+  hide_talk: true
 - name: R.V.Guha               
   title: |
     Google Fellow, Google
