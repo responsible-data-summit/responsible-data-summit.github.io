@@ -7,7 +7,17 @@
       inline: true
       speakers: 
         - name: Yoshua Bengio
-- time: 10:00 - 10:45
+- time: 10:00 - 10:30
+  sections:
+    - title: "Fireside Chat:"
+    - title: "Moderator:"
+      inline: true
+      speakers:
+        - name: Dawn Song 
+    - inline: true
+      speakers:
+        - name: Yoshua Bengio
+- time: 10:30 - 11:30
   sections:
     - title: Privacy-preserving contact-tracing projects
     - title: "Session A:"
@@ -33,16 +43,6 @@
     - title: "Session D:"
       speakers:
         - name: Andrew Trask
-- time: 10:45 - 11:30
-  sections:
-    - title: "Fireside Chat:"
-    - title: "Moderator:"
-      inline: true
-      speakers:
-        - name: Dawn Song 
-    - inline: true
-      speakers:
-        - name: Shafi Goldwasser
 - time: 11:30 - 12:15
   sections:
     - title: "Panel:"
