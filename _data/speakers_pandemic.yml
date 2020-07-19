@@ -62,7 +62,8 @@
   title: |
     Research Scientist, Google
   avatar: Moti.png
-  hide_talk: true
+  talk: |
+    Privacy Integrated Computing
 - name: Brennan Lake
   title: |
     Senior Director of Data for Good, Quebic
