@@ -48,10 +48,6 @@
   title: |
     Professor, Princeton University
   avatar: Arvind.png
-- name: Yong Qiao
-  title: |
-    Director of Security Engineering, Uber
-  avatar: Yong.png
 - name: Salil Vadhan
   title: |
     Professor, Harvard University
@@ -61,6 +57,15 @@
     Professor, UC Berkeley
     Founder and CEO of Oasis Labs
   avatar: Dawn.jpg
+- name: Glen Weyl
+  title: |
+    Microsoft's Office of the Chief Technology Political Economist and Social Technologist (OCTOPEST)
+  avatar: Glen.jpg
+  hide_talk: true
+- name: Yong Qiao
+  title: |
+    Director of Security Engineering, Uber
+  avatar: Yong.png
 - name: Jackie Monson
   title: |
     CPO and CISO of Sutter Health
@@ -101,8 +106,8 @@
   avatar: Alex.png
 - name: Richard Whitt
   title: |
-    Chief Digital Stewardship,
-    Oasis Protocol Foundation
+    Chief Digital Steward and Head of Ecosystem, 
+    Oasis Foundation
   avatar: Richard.png
 - name: Chris Hoofnagle
   title: |
@@ -125,14 +130,13 @@
   title: |
     Partner, Crowell & Moring LLP
   avatar: Gabriel.jpg
-- name: Glen Weyl
-  title: |
-    Microsoft's Office of the Chief Technology Political Economist and Social Technologist (OCTOPEST)
-  avatar: Glen.jpg
-  hide_talk: true
 - name: Riddhiman Das 
   title: |
     CEO	TripleBlind
   avatar: Riddhiman.png
   talk: |
     Can't Drive Contact Tracing Adoption Without Being Privacy First
+- name: David Kohlbrenner
+  title: |
+    Professor, University of Washington
+  avatar: DavidK.png
