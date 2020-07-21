@@ -39,6 +39,8 @@
     Engineering Manager
     Facebook
   avatar: Payman.jpg
+  talk: |
+    Privacy Preserving Technology in Practice
 - name: Qiang Yang
   title: |
     Chief AI Officer, WeBank
@@ -140,3 +142,7 @@
   title: |
     Professor, University of Washington
   avatar: DavidK.png
+- name: Subodh Iyengar
+  title: |
+    Software Engineer, Facebook
+  avatar: Subodh.png
