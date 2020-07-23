@@ -1,0 +1,35 @@
+- time: 9:00 - 9:30
+  sections: 
+    - title: GAEN and Government
+      speakers:
+      - name: US Congressman
+- time: 9:10 - 10:00
+  sections: 
+    - title: National GAEN Server 
+      speakers:
+      - name: Scott Becker
+        aff: CEO of APHL
+        content: Bringing COVID-19 Exposure Notification to the Public Health Community
+        link: https://www.aphlblog.org/bringing-covid-19-exposure-notification-to-the-public-health-community/
+- time: 10:00 - 10:30
+  sections: 
+    - title: Tutorial on Building the GAEN App
+      speakers:
+      - name: Sam Zimmerman
+        aff: CTO of PathCheck Foundation
+- time: 10:30 - 11:00
+  sections: 
+    - title: Tutorial on Risk Factors in GAEN App
+      speakers:
+      - name: TBD
+- time: 11:00 - 11:30
+  sections: 
+    - title: Tutorial on App Evaluation and Testing Framework
+      speakers:
+      - name: TBD
+- time: 11:30 - Noon
+  sections: 
+    - title: Discussion and Closing
+      speakers:
+        - name: Dawn Song
+        - name: Ramesh Raskar
