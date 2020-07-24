@@ -1,8 +1,6 @@
 - time: 9:00 - 9:10
   sections: 
     - title: GAEN and Government
-      speakers:
-      - name: US Congressman
 - time: 9:10 - 10:00
   sections: 
     - title: National GAEN Server 
@@ -20,13 +18,9 @@
 - time: 10:30 - 11:00
   sections: 
     - title: Tutorial on Risk Factors in GAEN App
-      speakers:
-      - name: TBD
 - time: 11:00 - 11:30
   sections: 
     - title: Tutorial on App Evaluation and Testing Framework
-      speakers:
-      - name: TBD
 - time: 11:30 - Noon
   sections: 
     - title: Discussion and Closing
