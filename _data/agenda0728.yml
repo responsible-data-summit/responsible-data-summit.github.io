@@ -27,12 +27,12 @@
           link: https://pact.mit.edu/
     - title: "Session B:"
       speakers:
+        - name: Carmela Troncoso
+          content: DP-3T
+          link: https://github.com/DP-3T/documents
         - name: Ramesh Raskar
           content: SafePaths
           link: https://covidsafepaths.org/
-        - name: Carmela Troncoso	
-          content: DP-3T	
-          link: https://github.com/DP-3T/documents
     - title: "Session C:"
       speakers:
         - name: John Langford
