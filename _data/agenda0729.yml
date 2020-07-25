@@ -15,12 +15,28 @@
       speakers:
       - name: Sam Zimmerman
         aff: CTO of PathCheck Foundation
-- time: 10:30 - 11:00
+- time: 10:30 - 10:50
   sections: 
-    - title: Tutorial on Risk Factors in GAEN App
-- time: 11:00 - 11:30
+    - title: Tutorial on Bluetooth Exploitation for Distance
+      speakers:
+      - name: Gary F. Hatke
+        aff: |
+          Principal Staff, Communications Systems Division
+          MIT Lincoln Laboratory
+        content: Using Bluetooth Low Energy (BLE) Signal Strength Estimation to Facilitate Contact Tracing for COVID-19
+        link: https://arxiv.org/abs/2006.15711
+- time: 10:50 - 11:10
   sections: 
-    - title: Tutorial on App Evaluation and Testing Framework
+    - title: ""
+      inline: true
+      speakers:
+      - name: Doug Reynolds
+        aff: MIT Lincoln Labs
+        content: NIST Challenge for Bluetooth Proximity Data
+        link: https://www.nist.gov/itl/iad/mig/nist-tc4tl-challenge
+- time: 11:10 - 11:30
+  sections:
+    - title: Tutorial on Bluetooth Evaluation and Testing Framework
 - time: 11:30 - Noon
   sections: 
     - title: Discussion and Closing
