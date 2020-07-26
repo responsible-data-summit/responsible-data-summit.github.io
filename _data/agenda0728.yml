@@ -1,6 +1,9 @@
 - time: 9:00 - 9:30
   sections: 
     - title: Opening Remarks
+      speakers:
+        - name: Dawn Song
+          content: Building a Future of Responsible Data
 - time: 9:30 - 10:00
   sections: 
     - title: Keynote
