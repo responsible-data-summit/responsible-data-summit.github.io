@@ -32,7 +32,7 @@
           content: PACT
           link: https://pact.mit.edu/
     - title: "Session B:"
-      link: https://youtu.be/ocW8m_yIe0E
+      link: https://youtu.be/JxCmJtjJioY
       speakers:
         - name: Carmela Troncoso
           content: DP-3T
@@ -41,7 +41,7 @@
           content: SafePaths
           link: https://covidsafepaths.org/
     - title: "Session C:"
-      link: https://youtu.be/aKAd3idQol4
+      link: https://youtu.be/ocW8m_yIe0E
       speakers:
         - name: John Langford
           content: CovidSafe (PACT protocol)
@@ -49,7 +49,7 @@
         - name: Bill Pugh
           content: The Challenge of Balancing Useful Functionality and Privacy in GAEN
     - title: "Session D:"
-      link: https://youtu.be/JxCmJtjJioY
+      link: https://youtu.be/pv9eGYR9A98
       speakers:
         - name: Andrew Trask
 - time: 11:15 - 12:15
@@ -70,7 +70,7 @@
 - time: 12:15 - 13:00
   sections:
     - title: "Privacy vs. Utility"
-      link: https://youtu.be/qwsT5Ox5Hr8
+      link: https://youtu.be/NjacCpQuuKY
     - inline: true
       speakers:
         - name: Ed Felten
