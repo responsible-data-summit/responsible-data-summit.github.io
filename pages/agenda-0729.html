@@ -29,7 +29,11 @@ permalink: /agenda-0729
                                 style="padding-left: 2em;"
                             {% endunless %}
                             >
-                                <b>{{section.title}} </b> {{section.comment}}
+                                {% if section.link %}
+                                    <a href="{{section.link}}"><b>{{section.title}} </b> {{section.comment}} </a>
+                                {% else %}
+                                    <b>{{section.title}} </b> {{section.comment}}
+                                {% endif %}
                                 {% for speaker in section.speakers %}
                                     {% assign name = speaker.name %}
                                     {% assign aff = speaker.aff %}
@@ -50,7 +54,11 @@ permalink: /agenda-0729
                                     <br> 
                                     {% endunless %}
                                     &bull; 
-                                    <a href="{{speaker.link}}">{{speaker.content}}</a>
+                                    {% if speaker.link %}
+                                        <a href="{{speaker.link}}">{{speaker.content}}</a>
+                                    {% else %}
+                                        {{speaker.content}}
+                                    {% endif %}
                                     <a class="ui image label small">
                                         <img class="ui circular image" src="/assets/img/speakers/{{avatar}}" style="border-radius: 500rem;">
                                         {{name}}

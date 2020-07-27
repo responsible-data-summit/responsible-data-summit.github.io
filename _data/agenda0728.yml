@@ -7,12 +7,14 @@
 - time: 9:30 - 10:00
   sections: 
     - title: Keynote
+      link: https://youtu.be/XQ6E0Q8SY5c
       inline: true
       speakers: 
         - name: Yoshua Bengio
 - time: 10:00 - 10:30
   sections:
     - title: "Fireside Chat:"
+      link: https://youtu.be/fE0WMc8K_ow
     - inline: true
       speakers:
         - name: Yoshua Bengio
@@ -21,6 +23,7 @@
   sections:
     - title: Privacy-preserving contact-tracing projects
     - title: "Session A:"
+      link: https://youtu.be/aKAd3idQol4
       speakers:
         - name: Moti Yung
           content: Google
@@ -29,6 +32,7 @@
           content: PACT
           link: https://pact.mit.edu/
     - title: "Session B:"
+      link: https://youtu.be/ocW8m_yIe0E
       speakers:
         - name: Carmela Troncoso
           content: DP-3T
@@ -37,6 +41,7 @@
           content: SafePaths
           link: https://covidsafepaths.org/
     - title: "Session C:"
+      link: https://youtu.be/aKAd3idQol4
       speakers:
         - name: John Langford
           content: CovidSafe (PACT protocol)
@@ -44,12 +49,14 @@
         - name: Bill Pugh
           content: The Challenge of Balancing Useful Functionality and Privacy in GAEN
     - title: "Session D:"
+      link: https://youtu.be/JxCmJtjJioY
       speakers:
         - name: Andrew Trask
 - time: 11:15 - 12:15
   sections:
     - title: "Panel:"
       comment: Privacy-preserving contact tracing
+      link: https://youtu.be/C1egbi2CmOg
     - title: "Moderator:"
       speakers:
         - name: Will Knight
@@ -63,6 +70,7 @@
 - time: 12:15 - 13:00
   sections:
     - title: "Privacy vs. Utility"
+      link: https://youtu.be/qwsT5Ox5Hr8
     - inline: true
       speakers:
         - name: Ed Felten
@@ -72,6 +80,7 @@
 - time: 13:00 - 14:00
   sections:
     - title: "Data Commons in Pandemic"
+      link: https://youtu.be/qwsT5Ox5Hr8
     - inline: true
       speakers:
         - name: R.V.Guha
@@ -84,6 +93,7 @@
   sections:
     - title: "Panel:"
       comment: "Data Steward & Pandemic Response"
+      link: https://youtu.be/xDBzIWZF1Ac
     - title: "Moderator:"
       speakers:
         - name: Stefaan G Verhulst
