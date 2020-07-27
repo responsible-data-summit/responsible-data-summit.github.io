@@ -50,6 +50,7 @@
   title: |
     Professor, Princeton University
   avatar: Arvind.png
+  talk: Reverse Engineering the Surveillance Economy
 - name: Salil Vadhan
   title: |
     Professor, Harvard University
@@ -142,3 +143,7 @@
   title: |
     Software Engineer, Facebook
   avatar: Subodh.png
+- name: Heather West
+  title: |
+    Mozilla
+  avatar: Heather.png
