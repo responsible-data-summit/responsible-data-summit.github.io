@@ -44,8 +44,8 @@
       link: https://youtu.be/ocW8m_yIe0E
       speakers:
         - name: John Langford
-          content: CovidSafe (PACT protocol)
-          link: https://covidsafe.cs.washington.edu/
+          content: CommonCircle (PACT protocols)
+          link: https://commoncircle.us/
         - name: Bill Pugh
           content: The Challenge of Balancing Useful Functionality and Privacy in GAEN
     - title: "Session D:"
