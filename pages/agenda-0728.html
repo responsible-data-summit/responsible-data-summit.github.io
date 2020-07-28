@@ -29,7 +29,7 @@ permalink: /agenda-0728
                             {% endunless %}
                             >
                                 {% if section.link %}
-                                    <a href="{{section.link}}"><b>{{section.title}} </b> {{section.comment}} </a>
+                                    <a href="{{section.link}}" style="text-decoration: underline;"><b>{{section.title}} </b> {{section.comment}} </a>
                                     <a href="{{section.link}}" class="ui red circular label">Live Stream</a>
                                 {% else %}
                                     <b>{{section.title}} </b> {{section.comment}}
@@ -107,7 +107,12 @@ permalink: /agenda-0728
                                 style="padding-left: 2em;"
                             {% endunless %}
                             >
-                                <b>{{section.title}} </b> {{section.comment}}
+                                {% if section.link %}
+                                    <a href="{{section.link}}" style="text-decoration: underline;"><b>{{section.title}} </b> {{section.comment}} </a>
+                                    <a href="{{section.link}}" class="ui red circular label">Live Stream</a>
+                                {% else %}
+                                    <b>{{section.title}} </b> {{section.comment}}
+                                {% endif %}
                                 {% for speaker in section.speakers %}
                                     {% assign name = speaker.name %}
                                     {% assign aff = speaker.aff %}
