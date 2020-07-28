@@ -9,7 +9,6 @@
   sections: 
     - title: Keynote
       link: https://youtu.be/XQ6E0Q8SY5c
-      inline: true
       speakers: 
         - name: Yoshua Bengio
           content: AI and Responsible Data Use in Fighting the Pandemic
