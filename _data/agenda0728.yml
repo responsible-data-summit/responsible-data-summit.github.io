@@ -111,3 +111,10 @@
   sections: 
     - title: Conclusion 
       link: https://youtu.be/yLkruUA5uwY
+      speakers:
+        - name: Evgenios M. Kornaropoulos
+          aff: UC Berkeley
+          avatar: Evgenios.jpeg
+        - name: Vivek Sharma
+          aff: MIT, Harvard
+          avatar: VivekS.jpg

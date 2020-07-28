@@ -37,7 +37,11 @@ permalink: /agenda-0728
                                 {% for speaker in section.speakers %}
                                     {% assign name = speaker.name %}
                                     {% assign aff = speaker.aff %}
-                                    {% assign avatar = "unknown.jpg" %}
+                                    {% if speaker.avatar %}
+                                        {% assign avatar = speaker.avatar %}
+                                    {% else %}
+                                        {% assign avatar = "unknown.jpg" %}
+                                    {% endif %}
                                     {% for find_speaker in site.data.speakers_tech %}
                                         {% if find_speaker.name == name %}
                                             {% assign aff = find_speaker.title%}
@@ -107,7 +111,11 @@ permalink: /agenda-0728
                                 {% for speaker in section.speakers %}
                                     {% assign name = speaker.name %}
                                     {% assign aff = speaker.aff %}
-                                    {% assign avatar = "unknown.jpg" %}
+                                    {% if speaker.avatar %}
+                                        {% assign avatar = speaker.avatar %}
+                                    {% else %}
+                                        {% assign avatar = "unknown.jpg" %}
+                                    {% endif %}
                                     {% for find_speaker in site.data.speakers_tech %}
                                         {% if find_speaker.name == name %}
                                             {% assign aff = find_speaker.title%}
