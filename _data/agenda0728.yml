@@ -12,6 +12,7 @@
       inline: true
       speakers: 
         - name: Yoshua Bengio
+          content: AI and Responsible Data Use in Fighting the Pandemic
 - time: 10:00 - 10:30
   sections:
     - title: "Fireside Chat:"
@@ -53,6 +54,7 @@
       link: https://youtu.be/pv9eGYR9A98
       speakers:
         - name: Andrew Trask
+          content: Privacy Preserving Public Health Infrastructure
 - time: 11:15 - 12:15
   sections:
     - title: "Panel:"
