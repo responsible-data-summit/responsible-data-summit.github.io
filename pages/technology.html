@@ -5,7 +5,7 @@ permalink: /technology
 twitter_title: Responsible Data Technology and Policy in the Real World - Responsible Data Summit
 twitter_description: Companies and technologists are innovating on the development and use of new privacy technologies that are making the promise of big data a reality. This track shares learnings and experiences from top academics, corporate leaders and others about new privacy computing technologies and how it’s used in real world applications.
 twitter_image: assets/img/card-tech.jpg
-theme_color: blue
+theme_color: rgba(0, 146, 246, 1)
 ---
 
 <section class="masthead ui segment center aligned"
@@ -36,6 +36,12 @@ theme_color: blue
             <a class="ui medium button" style="margin: 0em;" href="#committee">Organizing Committee</a>
             <a class="ui medium button" style="margin: 0em;" href="/agenda-0730">July 30 Agenda</a>
         </div>
+    </div>
+</section>
+
+<section class="ui segment center aligned">
+    <div class="ui container left aligned" style="padding-top: 2em; padding-bottom: 2em;">
+        {% include newsletter_signup.html %}
     </div>
 </section>
 
@@ -95,16 +101,7 @@ theme_color: blue
                 <h4> {{ speaker.title | newline_to_br  }} </h4>
             </div>
             {% endfor %}
-            <div class="column middle aligned">
-                <h1> And More! </h1>
-            </div>
         </div>
-    </div>
-</section>
-
-<section class="ui segment center aligned">
-    <div class="ui container left aligned" style="padding-top: 2em; padding-bottom: 2em;">
-        {% include newsletter_signup.html %}
     </div>
 </section>
 
