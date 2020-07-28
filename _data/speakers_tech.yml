@@ -12,7 +12,7 @@
   avatar: Dan.jpeg
   hide_talk: true
   extra_title: |
-    Godel Prize winner
+    Gödel Prize winner
 - name: Laurens Van Der Maaten
   title: |
     Director AI Research,
@@ -55,6 +55,7 @@
   title: |
     Professor, Harvard University
   avatar: Salil.png
+  talk: "OpenDP: An Overview"
 - name: Dawn Song
   title: |
     Professor, UC Berkeley
