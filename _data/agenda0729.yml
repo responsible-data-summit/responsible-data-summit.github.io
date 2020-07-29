@@ -43,6 +43,8 @@
         aff: MIT Lincoln Labs
         content: NIST TC4TL Challenge
         link: https://www.nist.gov/itl/iad/mig/nist-tc4tl-challenge
+      - name: Omid Sadjadi
+        aff: NIST/ITL
 - time: 11:10 - 11:40
   sections:
     - title: Discussion and Closing
