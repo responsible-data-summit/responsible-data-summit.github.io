@@ -1,6 +1,12 @@
 - time: 9:00 - 9:10
   sections: 
     - title: GAEN and Government
+      speakers:
+      - name: Ramesh Raskar
+      - name: Frank Moss
+        aff: Professor, MIT Media Lab
+      - name: David Kong
+        aff: Research Scientist, MIT Media Lab
 - time: 9:10 - 10:00
   sections: 
     - title: National GAEN Server 
@@ -9,6 +15,10 @@
         aff: CEO of APHL
         content: Bringing COVID-19 Exposure Notification to the Public Health Community
         link: https://www.aphlblog.org/bringing-covid-19-exposure-notification-to-the-public-health-community/
+      - name: Nate Yohannes
+        aff: Microsoft
+      - name: Jeff Day
+        aff: Microsoft
 - time: 10:00 - 10:30
   sections: 
     - title: Tutorial on Building the GAEN App
@@ -27,18 +37,14 @@
         link: https://arxiv.org/abs/2006.15711
 - time: 10:50 - 11:10
   sections: 
-    - title: ""
-      inline: true
+    - title: "NIST Challenge for Bluetooth Proximity Data"
       speakers:
       - name: Doug Reynolds
         aff: MIT Lincoln Labs
-        content: NIST Challenge for Bluetooth Proximity Data
+        content: NIST TC4TL Challenge
         link: https://www.nist.gov/itl/iad/mig/nist-tc4tl-challenge
-- time: 11:10 - 11:30
+- time: 11:10 - 11:40
   sections:
-    - title: Tutorial on Bluetooth Evaluation and Testing Framework
-- time: 11:30 - Noon
-  sections: 
     - title: Discussion and Closing
       speakers:
         - name: Dawn Song

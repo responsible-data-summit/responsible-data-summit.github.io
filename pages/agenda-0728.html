@@ -31,6 +31,7 @@ permalink: /agenda-0728
                                 {% if section.link %}
                                     <a href="{{section.link}}" style="text-decoration: underline;"><b>{{section.title}} </b> {{section.comment}} </a>
                                     <a href="{{section.link}}" class="ui red circular label">Live Stream</a>
+                                    <a href="https://twitter.com/dataeconomyai/status/1287968908670984192?s=20" class="ui blue circular label">Live Q&amp;A Instruction</a>
                                 {% else %}
                                     <b>{{section.title}} </b> {{section.comment}}
                                 {% endif %}
@@ -85,7 +86,11 @@ permalink: /agenda-0728
 <section class="ui segment center aligned" style="background-color: rgb(125, 211, 171);">
     <div class="ui container center aligned agenda">
         <h1> Responsible Data in the Time of Pandemic </h1>
-        <h1> Hands-on Tutorials <a href="https://webcast.media.mit.edu/medialabtalk/" class="ui red circular huge label">Live Stream</a> </h1>
+        <h1> 
+            Hands-on Tutorials 
+            <a href="https://webcast.media.mit.edu/medialabtalk/" class="ui red circular huge label">Live Stream</a> 
+            <a href="https://app.sli.do/event/pjde1phn" class="ui blue circular huge label">Live Q&amp;A</a>
+        </h1>
         <h1> Agenda (Wed. July 29th, PDT) </h1>
     </div>
     <div class="ui container left aligned agenda">
@@ -107,12 +112,9 @@ permalink: /agenda-0728
                                 style="padding-left: 2em;"
                             {% endunless %}
                             >
-                                {% if section.link %}
-                                    <a href="{{section.link}}" style="text-decoration: underline;"><b>{{section.title}} </b> {{section.comment}} </a>
-                                    <a href="{{section.link}}" class="ui red circular label">Live Stream</a>
-                                {% else %}
-                                    <b>{{section.title}} </b> {{section.comment}}
-                                {% endif %}
+                                <a href="https://webcast.media.mit.edu/medialabtalk/" style="text-decoration: underline;"><b>{{section.title}} </b> {{section.comment}} </a>
+                                <a href="https://webcast.media.mit.edu/medialabtalk/" class="ui red circular label">Live Stream</a>
+                                <a href="https://app.sli.do/event/pjde1phn" class="ui blue circular label">Live Q&amp;A</a>
                                 {% for speaker in section.speakers %}
                                     {% assign name = speaker.name %}
                                     {% assign aff = speaker.aff %}
