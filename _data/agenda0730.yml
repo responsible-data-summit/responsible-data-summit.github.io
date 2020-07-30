@@ -1,12 +1,14 @@
 - time: 9:00 - 9:30
   sections: 
     - title: Opening Remarks
+      link: https://youtu.be/ncD4e1kCXq8
       speakers:
         - name: Dawn Song
           content: Building a Future of Responsible Data
 - time: 9:30 - 10:00
   sections:
     - title: "Fireside Chat:"
+      link: https://youtu.be/cr-SbqLZApQ
     - inline: true
       speakers:
         - name: Dan Boneh
@@ -15,6 +17,7 @@
   sections:
     - title: "Responsible Data Technology in the Real World"
     - title: "Session A:"
+      link: https://youtu.be/GgIdg3U2dZ0
       comment: "Federated Learning"
       speakers:
         - name: Brendan McMahan
@@ -22,6 +25,7 @@
         - name: Qiang Yang
           content: Federated Learning Among Organizations
     - title: "Session B:"
+      link: https://youtu.be/D6hsDrhF5F8
       comment: "Differential Privacy"
       speakers:
         - name: Simson Garfinkel
@@ -29,6 +33,7 @@
         - name: Salil Vadhan
           content: "OpenDP: An Overview"
     - title: "Session C:"
+      link: https://youtu.be/RjfwMsQtA7Q
       comment: "Secure Machine Learning"
       speakers:
         - name: Kristin Lauter
@@ -36,6 +41,7 @@
         - name: Laurens Van Der Maaten
           content: "Crypten: Secure Multi-Party Computation"
     - title: "Session D:"
+      link: https://youtu.be/LNKVB72seLw
       comment: "Secure Computing & Privacy-Preserving Technologies"
       speakers:
         - name: Payman Mohassel
@@ -46,6 +52,7 @@
 - time: 10:45 - 11:15
   sections:
     - title: "Fireside Chat:"
+      link: https://youtu.be/ckPcRogE3ak
     - inline: true
       speakers:
         - name: Shafi Goldwasser
@@ -53,6 +60,7 @@
 - time: 11:15 - 12:15
   sections:
     - title: "Digital Stewardship & What is Data?"
+      link: https://youtu.be/D9EA5K_OoFE
       speakers:
         - name: Arvind Narayanan
           content: Reverse Engineering the Surveillance Economy
@@ -64,6 +72,7 @@
   sections:
     - title: "Responsible Data Policy in the Real World"
     - title: "Session A:"
+      link: https://youtu.be/3gBH7v4j-9E
       comment: "Privacy and Policy"
       speakers:
         - name: Chris Riley
@@ -71,6 +80,7 @@
         - name: Elizabeth Edenberg
           content: Data Rights and Justice
     - title: "Session B:"
+      link: https://youtu.be/HJXzEEuXJbs
       comment: ""
       speakers:
         - name: Chris Hoofnagle
@@ -78,6 +88,7 @@
         - name: Riddhiman Das
           content: Principled Privacy
     - title: "Session C:"
+      link: https://youtu.be/1zR8bQJy6Zc
       comment: "Data Security & Privacy in Enterprise"
       speakers:
         - name: Neil Daswani
@@ -103,6 +114,7 @@
   sections:
     - title: "Panel:"
       comment: "Responsible Data in Enterprise"
+      link: https://youtu.be/FnKvEWiBw2o
     - title: "Moderator:"
       speakers:
         - name: Chenxi Wang
@@ -114,6 +126,7 @@
 - time: 14:45 - 15:00
   sections: 
     - title: Conclusion 
+      link: https://youtu.be/-D7oIp50kp0
       speakers:
         - name: Evgenios M. Kornaropoulos
           aff: Researcher, UC Berkeley
