@@ -56,10 +56,13 @@
       speakers:
         - name: Arvind Narayanan
           content: Reverse Engineering the Surveillance Economy
+          link: https://www.youtube.com/watch?v=fMxSln1LiFI&feature=youtu.be
         - name: Glen Weyl
           content: What Comes After AI?
+          link: https://www.youtube.com/watch?v=KzniikatdKM&feature=youtu.be
         - name: Richard Whitt
           content: Hacking the SEAMs
+          link: https://www.youtube.com/watch?v=vNZxwxYLJGc&feature=youtu.be
 - time: 12:15 - 13:00
   sections:
     - title: "Responsible Data Policy in the Real World"
