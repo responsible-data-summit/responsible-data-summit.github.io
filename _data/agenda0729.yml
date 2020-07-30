@@ -1,3 +1,10 @@
+- time: 9:00 - 11:40
+  sections:
+    - title: Host of the Event
+      speakers:
+      - name: Vivek Sharma
+        aff: Researcher, MIT/Harvard
+        avatar: VivekS.jpg
 - time: 9:00 - 9:10
   sections: 
     - title: GAEN and Government
@@ -51,3 +58,7 @@
       speakers:
         - name: Dawn Song
         - name: Ramesh Raskar
+        - name: Vivek Sharma
+          aff: Researcher, MIT/Harvard
+          avatar: VivekS.jpg
+
