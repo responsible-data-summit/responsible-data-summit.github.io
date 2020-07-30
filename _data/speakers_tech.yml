@@ -24,7 +24,7 @@
     Senior Computer Scientist,
     US Census Bureau
   avatar: Simson.png
-  talk: Using Differential Privacy to Protect the Privacy of the 2020 Census Respondents
+  hide_talk: true
 - name: Kristin Lauter
   title: |
     Principal Researcher,
