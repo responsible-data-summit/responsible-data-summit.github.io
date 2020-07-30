@@ -18,22 +18,25 @@
     Director AI Research,
     Facebook
   avatar: Laurens.png
-  hide_talk: true
+  talk: "Private Machine Learning and Prediction With CrypTen"
 - name: Simson Garfinkel
   title: |
     Senior Computer Scientist,
     US Census Bureau
   avatar: Simson.png
+  hide_talk: true
 - name: Kristin Lauter
   title: |
     Principal Researcher,
     Microsoft
   avatar: Kristin.png
+  talk: "Private AI: Machine Learning on Encrypted Data"
 - name: Brendan McMahan
   title: |
     Research Scientist
     Google
   avatar: Brendan.jpg
+  talk: "Federated Learning in Practice"
 - name: Payman Mohassel
   title: |
     Engineering Manager
@@ -46,6 +49,7 @@
     Chief AI Officer, WeBank
     Professor, HKUST
   avatar: Qiang.jpeg
+  talk: "Federated Learning Among Organizations"
 - name: Arvind Narayanan
   title: |
     Professor, Princeton University
@@ -61,6 +65,7 @@
     Professor, UC Berkeley
     Founder and CEO of Oasis Labs
   avatar: Dawn.jpg
+  hide_talk: true
 - name: Glen Weyl
   title: |
     Microsoft's Office of the Chief Technology Political Economist and Social Technologist (OCTOPEST)
@@ -70,66 +75,80 @@
   title: |
     Director of Security Engineering, Uber
   avatar: Yong.png
+  hide_talk: true
 - name: Jackie Monson
   title: |
     CPO and CISO of Sutter Health
   avatar: Jackie.jpg
+  hide_talk: true
 - name: Neil Daswani
   title: |
     Former CISO, Lifelock
   avatar: Neil.png
+  talk: "How the Oasis Platform Addresses the Root Causes of Data Breaches"
 - name: Sheila Jambekar
   title: |
     Vice President, 
     Deputy General Counsel, Privacy & Product
   avatar: Sheila.jpg
+  hide_talk: true
 - name: Chenxi Wang
   title: |
     General Partner
     Rain Capital
   avatar: Chenxi.png
+  hide_talk: true
 - name: Chris Riley
   title: |
     Mozilla
   avatar: Chris.png
+  talk: Data, Law, and Trust in the Digital Economy
 - name: Elizabeth Edenberg
   title: |
     Assistant Professor,
     Georgetown University
   avatar: Elizabeth.png
+  talk: "Data Rights and Justice"
 - name: Ernesto Falcon
   title: |
     Senior Counsel,
     Electronic Frontier Foundation
   avatar: Ernesto.png
+  hide_talk: true
 - name: Alex Feerst
   title: |
     Director, Responsible Data Foundation
     General Counsel, Neuralink,
     Former GC, Medium
   avatar: Alex.png
+  hide_talk: true
 - name: Richard Whitt
   title: |
     Chief Digital Steward and Head of Ecosystem, 
     Oasis Foundation
   avatar: Richard.png
+  talk: "Hacking the SEAMs"
 - name: Chris Hoofnagle
   title: |
     Professor of Law in Residence, Berkeley
   avatar: ChrisH.jpg
+  talk: "The GDPR's Responsibility Mechanisms"
 - name: Gerhard Eschelbeck
   title: |
     Cybersecurity Executive
   avatar: Gerhard.jpg
+  hide_talk: true
 - name: Vivek Narayanadas
   title: |
     Associate General Counsel, Privacy & IP 
     Data Protection Officer, Shopify
   avatar: Vivek.jpg
+  hide_talk: true
 - name: Gabriel Ramsey
   title: |
     Partner, Crowell & Moring LLP
   avatar: Gabriel.jpg
+  hide_talk: true
 - name: Riddhiman Das 
   title: |
     CEO	TripleBlind
@@ -140,11 +159,14 @@
   title: |
     Assistant Professor, University of Washington
   avatar: DavidK.png
+  hide_talk: true
 - name: Subodh Iyengar
   title: |
     Software Engineer, Facebook
   avatar: Subodh.png
+  hide_talk: true
 - name: Heather West
   title: |
     Mozilla
   avatar: Heather.png
+  hide_talk: true
