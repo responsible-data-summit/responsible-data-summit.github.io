@@ -1,0 +1,3 @@
+[submodule "events"]
+	path = events
+	url = https://github.com/responsible-data-summit/events.git

@@ -6,6 +6,8 @@ google_form: https://docs.google.com/forms/d/e/1FAIpQLSdUPaZGDUpTyxbtBEFwDwhFo4W
 
 agenda_aff_length: 35
 
+keep_files: [".git", ".svn", "events/.git"]
+
 defaults:
   - 
     scope: 
