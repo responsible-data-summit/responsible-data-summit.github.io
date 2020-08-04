@@ -1,7 +1,7 @@
 - time: 9:00 - 9:30
   sections: 
     - title: Opening Remarks
-      link: https://youtu.be/k-sIXplTssY
+      link: https://youtu.be/ncD4e1kCXq8
       speakers:
         - name: Dawn Song
           content: Building a Future of Responsible Data
@@ -23,12 +23,15 @@
 - time: 10:30 - 11:15
   sections:
     - title: Privacy-preserving contact-tracing projects
-    - title: "Session A:"
-      link: https://youtu.be/aKAd3idQol4
+    - title: "Session A (Moti Yung):"
+      link: https://youtu.be/GtINmDHczu8
       speakers:
         - name: Moti Yung
           content: Google
           link: https://www.google.com/covid19/exposurenotifications/
+    - title: "Session A (Ron Rivest):"
+      link: https://youtu.be/JA7OLccvytU
+      speakers:
         - name: Ron Rivest
           content: PACT
           link: https://pact.mit.edu/
